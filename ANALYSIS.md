@@ -66,23 +66,29 @@ we tested whether IDP-specific biophysical features (condensate grammar, amyloid
 | disease mechanism | genes | ESM2 LLR AUROC | mean LLR Δ |
 |-------------------|-------|----------------|------------|
 | loss of function (structured) | LMNA, SOD1, CRYAB, VCP | **0.763** | **+2.98** |
-| repeat expansion | AR, HTT, ATXN3 | 0.745 | +2.71 |
+| repeat expansion | AR, HTT, ATXN3 | 0.745‡ | +2.71 |
 | toxic aggregation (amyloid) | SNCA, TTR, PRNP, IAPP | 0.655 | +1.49 |
-| phase separation / condensate | DDX4, NPM1, SQSTM1, MAPT | 0.802 | +3.97 |
+| phase separation / condensate | DDX4, NPM1, SQSTM1, MAPT | 0.802† | +3.97 |
 | **toxic aggregation (non-amyloid)** | **FUS, TARDBP, HNRNPA1, TIA1** | **0.417** | **-0.87** |
+
+‡**caution on repeat expansion group:** HTT (3,142 aa) exceeds ESM2's 1,022-token limit. 170 of 259 HTT variants (65.6%) received default ESM2 features (llr=0.0) and are included in the AUROC calculation without filtering. the 0.745 AUROC is contaminated by these zero-information variants being treated as genuine low-conservation signals.
+
+†**caution on condensate group:** only 11 pathogenic variants across 4 genes (DDX4: 0 pathogenic, NPM1: 0 pathogenic, SQSTM1: 3, MAPT: 8). the 0.802 AUROC is dominated by MAPT (which has severe isoform mapping issues — only 17% position-valid) and is computed on too few positives for a stable estimate. this group should be treated as exploratory until more pathogenic variants are available.
 
 the non-amyloid toxic aggregation group has **negative** LLR difference — pathogenic mutations at these genes occur at positions ESM2 considers MORE variable than benign sites. conservation is anti-predictive.
 
 ### 2.3 per-gene ESM2 LLR performance
 
-genes where ESM2 works (AUROC > 0.6):
+genes where ESM2 works (AUROC > 0.6, P≥10 for reliable estimates):
 - LMNA: 0.822 (n=907, P=187) — coiled-coil LoF
-- CRYAB: 0.797 (n=160, P=2) — small heat shock protein LoF
-- SQSTM1: 0.794 (n=354, P=4) — autophagy receptor
 - SOD1: 0.673 (n=154, P=105) — enzyme LoF
 - TTR: 0.669 (n=195, P=109) — amyloid (transthyretin)
 - AR: 0.635 (n=312, P=139) — repeat expansion/LoF
-- SNCA: 0.621 (n=33, P=5) — amyloid (synucleinopathy)
+
+genes where ESM2 works but estimate is unreliable (P<10):
+- CRYAB: 0.797 (n=160, **P=2**) — only 2 pathogenic variants, AUROC is one coin flip
+- SQSTM1: 0.794 (n=354, **P=4**) — only 4 pathogenic variants, estimate unstable
+- SNCA: 0.621 (n=33, **P=5**) — borderline, low confidence
 
 genes where ESM2 fails (AUROC < 0.5):
 - **FUS: 0.417** (n=168, P=18) — NLS mutations
@@ -96,7 +102,7 @@ genes where ESM2 fails (AUROC < 0.5):
 
 ### 3.1 FUS — the NLS smoking gun
 
-17 of 18 pathogenic FUS mutations cluster in the PY-NLS (nuclear localization signal, residues 501-526). this 26-residue motif is in a fully disordered C-terminal region (disorder > 0.90).
+17 of 18 pathogenic FUS mutations cluster in the PY-NLS (nuclear localization signal, residues 501-526 as defined in script 07). this 26-residue motif is in a fully disordered C-terminal region (disorder > 0.90). note: the canonical PY-NLS core motif in FUS is typically annotated as residues ~510-526 (the RX₂₋₅PY motif), with flanking sequence extending to ~495. the 0.916 AUROC below depends on the exact boundary choice (501-526). a sensitivity analysis varying the boundary (e.g., 495-526 vs 510-526) has not been performed and would strengthen or weaken this result.
 
 **NLS membership alone predicts FUS pathogenicity: AUROC = 0.916**
 
@@ -135,12 +141,12 @@ per-gene discriminative features:
 
 ### 3.3 HNRNPA1 — the exception
 
-only 3 pathogenic variants (D262V, P288A, one other) but they show a unique pattern:
+only 3 pathogenic variants (D262V, P288A, one other) vs 36 benign/VUS. the following AUROCs are computed on this 3-vs-36 split and should be treated as **preliminary — a bootstrap 95% CI would likely span ~0.4-1.0 for each**:
 - **local_p_lock: AUROC=0.722** — the maturation grammar locking probability
 - **hydrophobicity_change: AUROC=0.704** — mutations increase hydrophobicity
 - **esm2_entropy: AUROC=0.880** — pathogenic at high-entropy (unconserved) positions
 
-this is the ONLY gene where IDP-specific biophysics (sticker-spacer framework) predicts pathogenicity. mutations at high p_lock positions that increase hydrophobicity gain sticker character, promoting aberrant phase transition.
+despite the small sample, the sticker-spacer interpretation is biologically coherent: mutations at high p_lock positions that increase hydrophobicity gain sticker character, promoting aberrant phase transition. this is the ONLY gene where IDP-specific biophysics predicts pathogenicity, but the result requires validation with more pathogenic variants before it can be considered reliable.
 
 ### 3.4 the fundamental problem
 
@@ -167,7 +173,7 @@ no universal feature works across all three. the pathogenicity signal is at the 
 | moderate IDR (0.5-0.8) | 334 | 31 | 0.760 | still decent |
 | strong IDR (>0.8) | 1168 | 65 | 0.566 | weak: IDR positions are variable |
 
-the **order-disorder boundary** is the sweet spot for conservation-based prediction. these positions can flip between ordered and disordered states; evolutionary pressure keeps them at the boundary, making pathogenic disruptions detectable.
+the **order-disorder boundary** is the sweet spot for conservation-based prediction. two possible explanations: (1) these positions can flip between ordered and disordered states; evolutionary pressure keeps them at the boundary, making pathogenic disruptions detectable; (2) alternatively, these may be structured positions in functional domains where metapredict's predicted disorder (0.3-0.5) reflects prediction uncertainty rather than true conformational ambiguity — in which case the high AUROC simply reflects that conservation-based tools work well on structured regions. distinguishing these interpretations would require comparing metapredict scores with experimentally determined disorder (e.g., NMR, HDX-MS).
 
 ### 4.2 IDR conservation paradox
 
@@ -193,7 +199,13 @@ routing predictions by disease mechanism:
 
 **result: AUROC = 0.738 (vs 0.696 baseline)**
 
-this 4% gain comes from slightly better handling of amyloid genes with the XGBoost model. GoF non-amyloid remains at 0.457 — the mechanism-specific models don't truly fix the problem, they just don't drag down the LoF predictions.
+this 4% gain comes from routing GoF non-amyloid genes through XGBoost (which scores 0.457 for those genes, still poor) instead of raw ESM2 LLR (0.417, anti-predictive). for LoF/amyloid/repeat/condensate genes, raw ESM2 LLR is used unchanged. the ensemble's real benefit is avoiding the anti-predictive ESM2 signal on GoF genes — the noisy XGBoost predictions (0.457) are less harmful than inverted conservation scores (0.417). GoF non-amyloid remains fundamentally unsolved.
+
+---
+
+## 5b. comparison with Farquhar 2026
+
+Farquhar 2026 (Research Square preprint) reports AUC=0.982 for pathogenicity prediction in IDRs by combining ESM2 embeddings (1280-dim, 83.7% feature importance) + AlphaMissense structural features + additional sequence features. our ESM2 LLR achieves only 0.70 overall and 0.57 in strong IDRs. the gap likely comes from three factors: (1) we use ESM2 LLR (a single scalar), not the full 1280-dim embedding — embeddings capture contextual residue-level information that the marginal probability misses; (2) AlphaMissense incorporates AlphaFold2 structural predictions, adding structural context even for disordered regions; (3) different evaluation protocols — Farquhar may use within-gene splits rather than LOGO-CV, which would inflate performance by allowing gene-specific patterns into training. our LOGO-CV is more conservative but more realistic for novel genes. importantly, even high-performing tools may still fail for GoF non-amyloid genes specifically — this mechanism-specific blind spot has not been tested in the Farquhar framework.
 
 ---
 
@@ -229,7 +241,7 @@ this is a negative result with positive implications — it explains why clinica
 2. ~~maturation grammar predicts pathogenicity~~ — only for HNRNPA1, not generally
 3. ~~ESM2 is universally predictive~~ — fails for GoF genes (AUROC=0.42)
 4. ~~combining IDP + ESM2 features helps~~ — it hurts (noise dilution)
-5. ~~IDR mutations are harder to predict in general~~ — not true. boundary mutations (disorder 0.3-0.5) are the EASIEST to predict (AUROC=0.82). the failure is mechanism-specific, not disorder-general.
+5. ~~IDR mutations are harder to predict in general~~ — not true. boundary mutations (disorder 0.3-0.5) are the EASIEST to predict (AUROC=0.82), though this may reflect that "boundary" positions are actually structured positions with uncertain disorder predictions rather than truly conformationally ambiguous residues (see section 4.1). the ESM2 failure is mechanism-specific (GoF non-amyloid), not disorder-general.
 
 ---
 

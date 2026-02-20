@@ -123,9 +123,9 @@ a multi-axis sequence feature framework that **significantly separates condensat
 - `landscape_reduced_interp.png` — redundancy-removed landscape (20 features)
 
 ### analysis documents
-- `ANALYSIS.md` — full permutation test results, feature correlations, predictions
-- `VALIDATION.md` — literature validation of 7 predictions
-- `PHASE3_CRITIQUE.md` — honest self-assessment of limitations
+- `ANALYSIS.md` — **rewritten 2026-02-19** with mutation vulnerability analysis (the original protein-level permutation test results, feature correlations, and predictions from phases 3-5 were overwritten; see `SESSION_LOG_2026-02-19.md` for the pivot rationale and `PHASE3_CRITIQUE.md` for the self-assessment that motivated the pivot)
+- `VALIDATION.md` — literature validation of 7 predictions (protein-level landscape era)
+- `PHASE3_CRITIQUE.md` — honest self-assessment of limitations → directly motivated the mutation-level pivot
 
 ### remaining steps to strengthen
 1. add more WT proteins to singleton classes (e.g., SOD1 for template, other tauopathy-related IDPs for dual)
@@ -148,9 +148,13 @@ ESM2 LLR alone is the best predictor (AUROC=0.70), but it has a **systematic bli
 
 | disease mechanism | ESM2 AUROC | interpretation |
 |---|---|---|
-| loss of function (LMNA, SOD1, CRYAB) | **0.763** | conservation works — mutations disrupt conserved structure |
-| toxic aggregation, amyloid (SNCA, TTR, PRNP) | 0.655 | moderate — partial conservation signal |
-| **toxic aggregation, non-amyloid (FUS, TARDBP, HNRNPA1)** | **0.417** | **anti-predictive — mutations in unconserved IDR motifs** |
+| loss of function (LMNA, SOD1, CRYAB, VCP) | **0.763** | conservation works — mutations disrupt conserved structure |
+| repeat expansion (AR, HTT, ATXN3) | 0.745‡ | moderate — contaminated by HTT truncation defaults |
+| toxic aggregation, amyloid (SNCA, TTR, PRNP, IAPP) | 0.655 | moderate — partial conservation signal |
+| phase separation / condensate (DDX4, NPM1, SQSTM1, MAPT) | 0.802† | unreliable — only 11 pathogenic variants, MAPT-dominated |
+| **toxic aggregation, non-amyloid (FUS, TARDBP, HNRNPA1, TIA1)** | **0.417** | **anti-predictive — mutations in unconserved IDR motifs** |
+
+(‡see ANALYSIS.md for HTT truncation caveat; †see ANALYSIS.md for small-n caveat)
 
 ### the central finding
 pathogenicity in GoF genes is determined by **functional region membership** (NLS for FUS, LCD for TARDBP, PrLD for HNRNPA1), not by residue-level biophysics or conservation. NLS membership alone predicts FUS pathogenicity at AUROC=0.916. but each gene's critical region requires different features — no universal GoF predictor exists.

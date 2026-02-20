@@ -27,7 +27,7 @@ the user's directive: "why do some mutations cause disease and others don't? it 
 - MAPT P301L (the classic FTD mutation) shows as VUS due to isoform numbering mismatch between ClinVar reference transcript and UniProt canonical
 - benign set is tiny (159) — ClinVar is biased toward pathogenic submissions
 
-**decision:** use VUS as noisy-benign proxy (standard in literature; ~80-90% of VUS are truly benign). training setup: pathogenic (672) vs benign+VUS (133+2859=2,992) with class weighting.
+**decision:** use VUS as noisy-benign proxy (standard in literature; fraction of VUS that are truly benign varies by gene — likely 80-90% for well-characterized genes like LMNA, possibly lower for poorly characterized genes; see Pejaver et al. 2022, Am J Hum Genet for calibration estimates). training setup after position validation: pathogenic (672) vs benign+VUS (133+2,859=2,992) with class weighting. note: the benign count drops from 159 (raw ClinVar) to 133 (post-validation) because 26 benign variants failed UniProt position cross-validation (25 MAPT isoform mismatches + 1 HTT).
 
 ### task 2: UniProt sequence fetching and cross-validation
 **script:** `scripts/mutation/02_fetch_sequences.py`
@@ -137,7 +137,7 @@ structured top features: relative_position, local_proline_frac, local_p_pi
 **script:** `scripts/mutation/06_approach_c_esm2.py`
 **method:** ESM2-650M (facebook/esm2_t33_650M_UR50D) on GPU. computes per-position log-likelihood ratio (LLR), ref/alt logprob, entropy, rank. tests ESM2 alone, handcrafted alone, combined, and raw LLR.
 
-**bug/limitation:** HTT (3142 aa) exceeds ESM2 max length (1022 tokens). truncated. 170 HTT variants got default features.
+**bug/limitation:** HTT (3142 aa) exceeds ESM2 max length (1022 tokens). truncated to first 1022 positions. 170 of 259 HTT variants (65.6%) at positions >1022 got default features (llr=0, entropy=0, rank=10). **these default-feature variants are included in all downstream AUROC calculations without filtering**, which contaminates the repeat_expansion mechanism group (AUROC=0.745). the 170 variants with esm2_llr=0.0 are treated as having genuine low conservation, which is incorrect — they simply have no ESM2 information. this inflates the apparent ability of ESM2 to discriminate within HTT. a proper implementation would either exclude these variants or use a sliding-window ESM2 approach for long proteins.
 
 **RESULTS — the key finding:**
 
@@ -312,6 +312,8 @@ note: FUS uses charge_density, TARDBP uses qn_frac, HNRNPA1 uses p_lock — each
 | GoF amyloid | **0.655** | 0.524 | 0.533 | 0.603 |
 | GoF non-amyloid | 0.417 | **0.564** | 0.410 | 0.457 |
 
+note: repeat expansion (AUROC=0.745‡) and condensate (AUROC=0.802†) groups are omitted from this LOGO-CV comparison table because the ensemble routes them through raw ESM2 LLR without ML models. see ANALYSIS.md section 2.2 for full 5-group breakdown with caveats on these groups (‡HTT truncation, †small pathogenic n).
+
 for LoF: raw ESM2 LLR wins, no ML needed.
 for GoF amyloid: combined XGBoost helps slightly (0.603 vs 0.655).
 for GoF non-amyloid: ESM2 XGBoost is best (0.564) but still poor. nothing works.
@@ -321,7 +323,7 @@ for GoF non-amyloid: ESM2 XGBoost is best (0.564) but still poor. nothing works.
 baseline ESM2 LLR (all genes): AUROC=0.696
 mechanism-aware ensemble: **AUROC=0.738** (+4.2%)
 
-the ensemble routes LoF predictions through raw ESM2 LLR and GoF through XGBoost, gaining 4% overall. but GoF non-amyloid remains at 0.457.
+the ensemble routes LoF/amyloid/repeat/condensate through raw ESM2 LLR (unchanged) and GoF non-amyloid through XGBoost (0.457, poor but better than anti-predictive ESM2 LLR at 0.417). the 4% overall gain comes from replacing anti-predictive ESM2 scores with noisy-but-not-inverted XGBoost predictions on the GoF genes. GoF non-amyloid remains fundamentally unsolved.
 
 ---
 
