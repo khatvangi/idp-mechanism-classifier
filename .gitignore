@@ -1,5 +1,6 @@
 # large data downloads (re-downloadable)
 data/variant_summary.txt.gz
+data/alphamissense/AlphaMissense_aa_substitutions.tsv.gz
 
 # python
 __pycache__/
