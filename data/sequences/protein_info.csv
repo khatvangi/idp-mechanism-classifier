@@ -1,0 +1,24 @@
+gene,uniprot_id,length,header
+APP,P05067,770,>sp|P05067|A4_HUMAN Amyloid-beta precursor protein OS=Homo sapiens OX=9606 GN=AP
+AR,P10275,920,>sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3
+ATXN3,P54252,361,>sp|P54252|ATX3_HUMAN Ataxin-3 OS=Homo sapiens OX=9606 GN=ATXN3 PE=1 SV=5
+CRYAB,P02511,175,>sp|P02511|CRYAB_HUMAN Alpha-crystallin B chain OS=Homo sapiens OX=9606 GN=CRYAB
+DDX4,Q9NQI0,724,>sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens O
+EWSR1,Q01844,656,>sp|Q01844|EWS_HUMAN RNA-binding protein EWS OS=Homo sapiens OX=9606 GN=EWSR1 PE
+FUS,P35637,526,>sp|P35637|FUS_HUMAN RNA-binding protein FUS OS=Homo sapiens OX=9606 GN=FUS PE=1
+HNRNPA1,P09651,372,>sp|P09651|ROA1_HUMAN Heterogeneous nuclear ribonucleoprotein A1 OS=Homo sapiens
+HNRNPA2B1,P22626,353,>sp|P22626|ROA2_HUMAN Heterogeneous nuclear ribonucleoproteins A2/B1 OS=Homo sap
+HTT,P42858,3142,>sp|P42858|HD_HUMAN Huntingtin OS=Homo sapiens OX=9606 GN=HTT PE=1 SV=2
+IAPP,P10997,89,>sp|P10997|IAPP_HUMAN Islet amyloid polypeptide OS=Homo sapiens OX=9606 GN=IAPP 
+LMNA,P02545,664,>sp|P02545|LMNA_HUMAN Prelamin-A/C OS=Homo sapiens OX=9606 GN=LMNA PE=1 SV=1
+MAPT,P10636,758,>sp|P10636|TAU_HUMAN Microtubule-associated protein tau OS=Homo sapiens OX=9606 
+NPM1,P06748,294,>sp|P06748|NPM_HUMAN Nucleophosmin OS=Homo sapiens OX=9606 GN=NPM1 PE=1 SV=2
+PRNP,P04156,253,>sp|P04156|PRIO_HUMAN Major prion protein OS=Homo sapiens OX=9606 GN=PRNP PE=1 S
+SNCA,P37840,140,>sp|P37840|SYUA_HUMAN Alpha-synuclein OS=Homo sapiens OX=9606 GN=SNCA PE=1 SV=1
+SOD1,P00441,154,>sp|P00441|SODC_HUMAN Superoxide dismutase [Cu-Zn] OS=Homo sapiens OX=9606 GN=SO
+SQSTM1,Q13501,440,>sp|Q13501|SQSTM_HUMAN Sequestosome-1 OS=Homo sapiens OX=9606 GN=SQSTM1 PE=1 SV=
+TAF15,Q92804,592,>sp|Q92804|RBP56_HUMAN TATA-binding protein-associated factor 2N OS=Homo sapiens
+TARDBP,Q13148,414,>sp|Q13148|TADBP_HUMAN TAR DNA-binding protein 43 OS=Homo sapiens OX=9606 GN=TAR
+TIA1,P31483,386,>sp|P31483|TIA1_HUMAN Cytotoxic granule associated RNA binding protein TIA1 OS=H
+TTR,P02766,147,>sp|P02766|TTHY_HUMAN Transthyretin OS=Homo sapiens OX=9606 GN=TTR PE=1 SV=1
+VCP,P55072,806,>sp|P55072|TERA_HUMAN Transitional endoplasmic reticulum ATPase OS=Homo sapiens 

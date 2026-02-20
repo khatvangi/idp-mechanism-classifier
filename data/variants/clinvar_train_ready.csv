@@ -1,0 +1,849 @@
+gene,position,ref_aa,alt_aa,label,clinical_significance,review_stars,phenotype,variation_id,train_label
+SOD1,94,G,D,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1,1072003,pathogenic
+TTR,32,L,V,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Amyloidosis|Cardiovascular phenotype",1075407,pathogenic
+SQSTM1,404,M,V,pathogenic,Pathogenic,2,"Paget disease of bone 2, early-onset;Frontotemporal dementia and/or amyotrophic lateral sclerosis 1|SQSTM1-related disorder",1071292,pathogenic
+FUS,521,R,G,pathogenic,Pathogenic,2,"Amyotrophic lateral sclerosis type 6|Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4|not provided|FUS-related disorder",16222,pathogenic
+SOD1,94,G,R,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|Motor neuron disease,14784,pathogenic
+APP,714,T,A,pathogenic,Pathogenic,2,Alzheimer disease type 1|not provided|Alzheimer disease,18102,pathogenic
+APP,694,D,N,pathogenic,Pathogenic,2,"ABeta amyloidosis, Iowa type|not provided|Alzheimer disease|Cerebral amyloid angiopathy, APP-related",18101,pathogenic
+TTR,72,S,P,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",1178327,pathogenic
+VCP,159,R,H,pathogenic,Pathogenic,2,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|not provided|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|VCP-related disorder,8474,pathogenic
+LMNA,1,M,I,pathogenic,Pathogenic,2,not provided|See cases|Dilated cardiomyopathy 1A|Charcot-Marie-Tooth disease type 2,488705,pathogenic
+AR,706,N,S,pathogenic,Pathogenic,2,Androgen resistance syndrome|not provided|Androgen resistance syndrome;Kennedy disease,492789,pathogenic
+VCP,93,R,C,pathogenic,Pathogenic,2,not provided|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,593071,pathogenic
+LMNA,48,R,P,pathogenic,Pathogenic,2,Charcot-Marie-Tooth disease type 2|not provided,646027,pathogenic
+SOD1,145,L,F,pathogenic,Pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1|SOD1-related disorder,586637,pathogenic
+FUS,514,R,G,pathogenic,Pathogenic,2,"Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4|Amyotrophic lateral sclerosis type 6",2925592,pathogenic
+TTR,38,D,N,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",571867,pathogenic
+SOD1,140,N,K,pathogenic,Pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,586635,pathogenic
+LMNA,31,E,K,pathogenic,Pathogenic,2,Charcot-Marie-Tooth disease type 2|not provided,573778,pathogenic
+SOD1,38,G,R,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1,549678,pathogenic
+TTR,70,S,R,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",36890,pathogenic
+SOD1,86,G,R,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|SOD1-related disorder,14758,pathogenic
+SOD1,87,N,S,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,468253,pathogenic
+AR,766,A,T,pathogenic,Pathogenic,2,Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome|not provided,458363,pathogenic
+AR,832,R,Q,pathogenic,Pathogenic,2,Androgen resistance syndrome;Kennedy disease|not provided|Androgen resistance syndrome,458366,pathogenic
+TTR,74,E,Q,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype|not provided",448842,pathogenic
+LMNA,291,E,K,pathogenic,Pathogenic,2,not provided|Dilated cardiomyopathy 1A,200942,pathogenic
+SOD1,42,G,D,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1,14755,pathogenic
+SOD1,42,G,S,pathogenic,Pathogenic,2,"Amyotrophic lateral sclerosis type 1|Spastic tetraplegia and axial hypotonia, progressive;Amyotrophic lateral sclerosis type 1",14754,pathogenic
+LMNA,527,R,P,pathogenic,Pathogenic,2,"Emery-Dreifuss muscular dystrophy 2, autosomal dominant|Familial partial lipodystrophy, Dunnigan type|not provided|Charcot-Marie-Tooth disease type 2|Primary dilated cardiomyopathy|Cardiovascular phenotype",14481,pathogenic
+SOD1,145,L,S,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided|SOD1-related disorder|Limb muscle weakness,14768,pathogenic
+AR,696,D,N,pathogenic,Pathogenic,2,Androgen resistance syndrome|Androgen resistance syndrome;Kennedy disease|not provided|Inborn genetic diseases,492787,pathogenic
+FUS,521,R,C,pathogenic,Pathogenic,2,"Amyotrophic lateral sclerosis type 6|not provided|Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4|FUS-related disorder",16224,pathogenic
+APP,717,V,F,pathogenic,Pathogenic,2,Alzheimer disease type 1|Alzheimer disease|not provided,18089,pathogenic
+APP,717,V,I,pathogenic,Pathogenic,2,"Alzheimer disease type 1|Alzheimer disease|not provided|Alzheimer disease type 1;Cerebral amyloid angiopathy, APP-related|Cerebral amyloid angiopathy, APP-related",18088,pathogenic
+FUS,521,R,H,pathogenic,Pathogenic,2,"Amyotrophic lateral sclerosis type 6|Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4|not provided",16225,pathogenic
+SOD1,101,E,G,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|Motor neuron disease|not provided,14761,pathogenic
+SOD1,5,A,T,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,14765,pathogenic
+SOD1,47,H,R,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided|Amyotrophic lateral sclerosis|SOD1-related disorder,14764,pathogenic
+SOD1,5,A,V,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided|SOD1-related disorder,14763,pathogenic
+PRNP,200,E,K,pathogenic,Pathogenic,2,Inherited Creutzfeldt-Jakob disease|Fatal familial insomnia|Huntington disease-like 1|not provided|6 conditions,13398,pathogenic
+PRNP,117,A,V,pathogenic,Pathogenic,2,Gerstmann-Straussler-Scheinker syndrome|Inborn genetic diseases|not provided,13396,pathogenic
+TARDBP,315,A,T,pathogenic,Pathogenic,2,"Amyotrophic lateral sclerosis type 10|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10|not provided",5236,pathogenic
+PRNP,198,F,S,pathogenic,Pathogenic,2,Gerstmann-Straussler-Scheinker syndrome|Huntington disease-like 1|not provided,13401,pathogenic
+AR,841,R,C,pathogenic,Pathogenic,2,Partial androgen insensitivity syndrome|Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome|not provided|Differences in sex development,9830,pathogenic
+TTR,74,E,K,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",636837,pathogenic
+TTR,40,V,I,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13455,pathogenic
+TTR,109,E,Q,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13442,pathogenic
+TTR,50,V,L,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Charcot-Marie-Tooth disease|Cardiovascular phenotype",13440,pathogenic
+AR,775,R,H,pathogenic,Pathogenic,2,Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome|not provided,9819,pathogenic
+VCP,155,R,H,pathogenic,Pathogenic,2,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|not provided|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Inborn genetic diseases,8468,pathogenic
+TTR,134,Y,C,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13419,pathogenic
+TTR,50,V,M,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiomyopathy|Charcot-Marie-Tooth disease|Carpal tunnel syndrome 1;Hyperthyroxinemia, dystransthyretinemic;Amyloidosis, hereditary systemic 1|Cardiovascular phenotype|TTR-related disorder",13417,pathogenic
+PRNP,102,P,L,pathogenic,Pathogenic,2,Gerstmann-Straussler-Scheinker syndrome|Huntington disease-like 1|Spongiform encephalopathy with neuropsychiatric features|not provided|Inherited Creutzfeldt-Jakob disease,13395,pathogenic
+TTR,104,I,S,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13423,pathogenic
+TTR,50,V,A,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1",13430,pathogenic
+AR,775,R,C,pathogenic,Pathogenic,2,Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome|not provided,9804,pathogenic
+TTR,84,F,L,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Carpal tunnel syndrome;Amyloidosis, hereditary systemic 1;Hyperthyroxinemia, dystransthyretinemic|Cardiovascular phenotype",13453,pathogenic
+TTR,67,G,A,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13451,pathogenic
+TTR,53,F,L,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13456,pathogenic
+TTR,38,D,G,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1",13463,pathogenic
+AR,867,V,M,pathogenic,Pathogenic,2,"Androgen resistance syndrome|Partial androgen insensitivity syndrome;Prostate cancer;Kennedy disease;Hypospadias 1, X-linked;Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome|AR-related disorder",9806,pathogenic
+AR,616,R,H,pathogenic,Pathogenic,2,not provided|Androgen resistance syndrome;Kennedy disease|Partial androgen insensitivity syndrome|Androgen resistance syndrome,279684,pathogenic
+AR,856,R,L,pathogenic,Pathogenic,2,not provided|Differences in sex development,279688,pathogenic
+LMNA,361,E,K,pathogenic,Pathogenic,2,not provided|Muscular dystrophy|Charcot-Marie-Tooth disease type 2,66772,pathogenic
+LMNA,39,N,S,pathogenic,Pathogenic,2,"not provided|Charcot-Marie-Tooth disease type 2|LMNA-related disorder|Emery-Dreifuss muscular dystrophy 2, autosomal dominant",66791,pathogenic
+SOD1,4,K,E,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided|SOD1-related disorder,2138372,pathogenic
+LMNA,386,R,K,pathogenic,Pathogenic,2,"not provided|Charcot-Marie-Tooth disease type 2|Emery-Dreifuss muscular dystrophy 2, autosomal dominant",66782,pathogenic
+AR,597,A,T,pathogenic,Pathogenic,2,Partial androgen insensitivity syndrome|Androgen resistance syndrome;Kennedy disease|Disorder of sexual differentiation|Androgen resistance syndrome|not provided,9813,pathogenic
+AR,843,I,T,pathogenic,Pathogenic,2,Androgen resistance syndrome;Kennedy disease|Androgen resistance syndrome|Partial androgen insensitivity syndrome,658124,pathogenic
+TTR,58,D,A,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype|not provided",644083,pathogenic
+TTR,44,P,S,pathogenic,Pathogenic,2,"not provided|Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",181693,pathogenic
+TTR,84,F,S,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided",1067500,pathogenic
+AR,841,R,H,pathogenic,Pathogenic,2,Partial androgen insensitivity syndrome|Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome|not provided|Differences in sex development,9829,pathogenic
+SOD1,5,A,S,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1,873321,pathogenic
+LMNA,106,L,P,pathogenic,Pathogenic,2,Charcot-Marie-Tooth disease type 2|not provided,2098083,pathogenic
+LMNA,82,E,K,pathogenic,Pathogenic,2,not provided|Primary dilated cardiomyopathy|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype,66882,pathogenic
+LMNA,62,R,G,pathogenic,Pathogenic,2,"not provided|Familial partial lipodystrophy, Dunnigan type|Charcot-Marie-Tooth disease type 2",66868,pathogenic
+LMNA,456,N,D,pathogenic,Pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2,66811,pathogenic
+TTR,67,G,E,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",803481,pathogenic
+AR,780,R,W,pathogenic,Pathogenic,2,not provided|Androgen resistance syndrome|Androgen resistance syndrome;Kennedy disease,989383,pathogenic
+APP,716,I,F,pathogenic,Pathogenic,2,not provided|Alzheimer disease,2498894,pathogenic
+LMNA,190,R,W,pathogenic,Pathogenic,2,not provided|Dilated cardiomyopathy 1S|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|Primary dilated cardiomyopathy|LMNA-related disorder|7 conditions|Dilated cardiomyopathy 1A,66908,pathogenic
+LMNA,1,M,K,pathogenic,Pathogenic,2,Cardiovascular phenotype|not provided,2488942,pathogenic
+TTR,108,H,R,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",853918,pathogenic
+TTR,38,D,E,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",1359774,pathogenic
+SOD1,44,H,R,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided|Amyotrophic lateral sclerosis type 10|SOD1-related disorder,14756,pathogenic
+SOD1,107,L,V,pathogenic,Pathogenic,2,Amyotrophic lateral sclerosis type 1|SOD1-related disorder|not provided,14757,pathogenic
+SNCA,53,A,T,pathogenic,Pathogenic,2,Autosomal dominant Parkinson disease 1|Autosomal dominant Parkinson disease 1;Lewy body dementia|Autosomal dominant Parkinson disease 4|not provided|Autosomal dominant Parkinson disease 4;Autosomal dominant Parkinson disease 1;Lewy body dementia,14007,pathogenic
+MAPT,693,P,L,pathogenic,Pathogenic,2,"Frontotemporal dementia|not provided|Parkinson disease, late-onset;Progressive supranuclear palsy-parkinsonism syndrome;Frontotemporal dementia;Pick disease;Progressive supranuclear ophthalmoplegia|Supranuclear palsy, progressive, 1|MAPT-related disorder|Parkinson disease, late-onset;Progressive supranuclear palsy-parkinsonism syndrome;Frontotemporal dementia;Pick disease;Supranuclear palsy, progressive, 1",14245,pathogenic
+MAPT,671,N,K,pathogenic,Pathogenic,2,"Frontotemporal dementia|not provided|Frontotemporal dementia;Pick disease;Parkinson disease, late-onset;Progressive supranuclear palsy-parkinsonism syndrome;Progressive supranuclear ophthalmoplegia",14253,pathogenic
+LMNA,358,E,K,pathogenic,Pathogenic,2,"Emery-Dreifuss muscular dystrophy 2, autosomal dominant|Congenital muscular dystrophy due to LMNA mutation|not provided|Charcot-Marie-Tooth disease type 2|Muscular dystrophy|Emery-Dreifuss muscular dystrophy",14525,pathogenic
+MAPT,798,R,W,pathogenic,Pathogenic,2,"Frontotemporal dementia|not provided|Parkinson disease, late-onset;Progressive supranuclear palsy-parkinsonism syndrome;Frontotemporal dementia;Pick disease;Supranuclear palsy, progressive, 1|MAPT-related disorder",14247,pathogenic
+MAPT,729,V,M,pathogenic,Pathogenic,2,Frontotemporal dementia|not provided,14252,pathogenic
+AR,750,M,V,pathogenic,Pathogenic,2,not provided|Androgen resistance syndrome;Kennedy disease,426560,pathogenic
+LMNA,278,A,P,pathogenic,Pathogenic,2,Muscular dystrophy|Charcot-Marie-Tooth disease type 2,435769,pathogenic
+LMNA,377,R,H,pathogenic,Pathogenic,2,"Charcot-Marie-Tooth disease type 2|Muscular dystrophy|Emery-Dreifuss muscular dystrophy 2, autosomal dominant|Sudden unexplained death|not provided|Cardiovascular phenotype|Dilated cardiomyopathy 1A|11 conditions|Congenital muscular dystrophy due to LMNA mutation",14495,pathogenic
+LMNA,41,R,H,pathogenic,Pathogenic,2,Charcot-Marie-Tooth disease type 2|not provided,408994,pathogenic
+TTR,32,L,P,pathogenic,Pathogenic,2,"Amyloidosis, hereditary systemic 1|not specified",13457,pathogenic
+APP,693,E,Q,pathogenic,Pathogenic,2,"ABeta amyloidosis, dutch type|Alzheimer disease|Cerebral amyloid angiopathy, APP-related",18087,pathogenic
+FUS,525,P,L,pathogenic,Pathogenic,2,"not provided|Tremor, hereditary essential, 4;Amyotrophic lateral sclerosis type 6|Juvenile amyotrophic lateral sclerosis|FUS-related disorder|Amyotrophic lateral sclerosis type 6",280110,pathogenic
+AR,856,R,C,pathogenic,Pathogenic,2,not provided|Androgen resistance syndrome|Androgen resistance syndrome;Kennedy disease|Neoplasm,279687,pathogenic
+LMNA,195,N,K,pathogenic,Pathogenic,2,Dilated cardiomyopathy 1A|not provided|Primary dilated cardiomyopathy|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype,14483,pathogenic
+AR,890,V,M,pathogenic,Pathogenic,2,not provided|Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome,279690,pathogenic
+MAPT,658,L,V,pathogenic,Pathogenic,2,Frontotemporal dementia|not provided,14266,pathogenic
+LMNA,455,R,P,pathogenic,Pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66810,pathogenic
+LMNA,47,D,H,pathogenic,Pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66822,pathogenic
+TTR,38,D,Y,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",2584356,pathogenic
+LMNA,144,K,T,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,2151903,pathogenic
+SOD1,94,G,S,pathogenic,Pathogenic,1,SOD1-related disorder|Amyotrophic lateral sclerosis type 1,2634277,pathogenic
+SOD1,115,G,A,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,2138377,pathogenic
+SOD1,134,E,G,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,2138380,pathogenic
+VCP,625,R,P,pathogenic,Pathogenic,1,Global developmental delay,2444456,pathogenic
+LMNA,454,L,P,pathogenic,Pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66809,pathogenic
+PRNP,105,P,L,pathogenic,Pathogenic,1,Gerstmann-Straussler-Scheinker syndrome|Inborn genetic diseases,13404,pathogenic
+FUS,526,Y,C,pathogenic,Pathogenic,1,Juvenile amyotrophic lateral sclerosis,873234,pathogenic
+LMNA,466,N,K,pathogenic,Pathogenic,1,LMNA-related disorder,3895533,pathogenic
+LMNA,456,N,K,pathogenic,Pathogenic,1,not provided,66813,pathogenic
+TTR,97,S,F,pathogenic,Pathogenic,1,Cardiovascular phenotype,1797565,pathogenic
+MAPT,697,S,N,pathogenic,Pathogenic,1,Frontotemporal dementia|not provided,14254,pathogenic
+TTR,104,I,N,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",2736721,pathogenic
+SOD1,102,D,N,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,2736984,pathogenic
+LMNA,486,K,N,pathogenic,Pathogenic,1,"Familial partial lipodystrophy, Dunnigan type|not provided",66829,pathogenic
+SQSTM1,389,E,Q,pathogenic,Pathogenic,1,"Paget disease of bone 2, early-onset;Frontotemporal dementia and/or amyotrophic lateral sclerosis 1",1459183,pathogenic
+TTR,90,K,N,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",13443,pathogenic
+LMNA,50,R,P,pathogenic,Pathogenic,1,not provided,66840,pathogenic
+LMNA,540,M,T,pathogenic,Pathogenic,1,not provided|Hutchinson-Gilford syndrome,66858,pathogenic
+TTR,75,L,R,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",941337,pathogenic
+LMNA,4,P,R,pathogenic,Pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66795,pathogenic
+SOD1,127,L,S,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,2138379,pathogenic
+TTR,56,A,D,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",965016,pathogenic
+TARDBP,375,S,G,pathogenic,Pathogenic,1,"FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10",2202699,pathogenic
+AR,611,N,K,pathogenic,Pathogenic,1,not provided,988308,pathogenic
+APP,716,I,T,pathogenic,Pathogenic,1,not provided|Alzheimer disease,98240,pathogenic
+SOD1,73,G,D,pathogenic,Pathogenic,1,"Spastic tetraplegia and axial hypotonia, progressive",4687924,pathogenic
+TTR,55,K,N,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",2138145,pathogenic
+SOD1,112,C,Y,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,2138376,pathogenic
+AR,772,N,H,pathogenic,Pathogenic,1,not provided|Partial androgen insensitivity syndrome,280062,pathogenic
+LMNA,514,W,R,pathogenic,Pathogenic,1,not provided,246077,pathogenic
+LMNA,230,D,A,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,3633629,pathogenic
+PRNP,183,T,A,pathogenic,Pathogenic,1,Spongiform encephalopathy with neuropsychiatric features|Huntington disease-like 1,13407,pathogenic
+VCP,95,R,G,pathogenic,Pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,8471,pathogenic
+AR,744,G,V,pathogenic,Pathogenic,1,Partial androgen insensitivity syndrome|Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome,9857,pathogenic
+AR,713,L,F,pathogenic,Pathogenic,1,Androgen resistance syndrome|Kennedy disease;Androgen resistance syndrome,9852,pathogenic
+LMNA,39,N,K,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,2098082,pathogenic
+LMNA,540,M,I,pathogenic,Pathogenic,1,Mandibuloacral dysplasia with type A lipodystrophy,100690,pathogenic
+LMNA,141,L,P,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,1364147,pathogenic
+VCP,232,A,E,pathogenic,Pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|not provided,8470,pathogenic
+FUS,524,R,S,pathogenic,Pathogenic,1,not provided,280109,pathogenic
+TARDBP,348,G,V,pathogenic,Pathogenic,1,Motor neuron disease,266064,pathogenic
+LMNA,386,R,T,pathogenic,Pathogenic,1,Cardiovascular phenotype,264271,pathogenic
+TTR,73,G,E,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1|not provided",13462,pathogenic
+SNCA,46,E,K,pathogenic,Pathogenic,1,Lewy body dementia|Autosomal dominant Parkinson disease 1;Lewy body dementia,14010,pathogenic
+TTR,56,A,P,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",13432,pathogenic
+LMNA,370,D,E,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,3677001,pathogenic
+AR,766,A,D,pathogenic,Pathogenic,1,not provided,419720,pathogenic
+MAPT,756,P,S,pathogenic,Pathogenic,1,Frontotemporal dementia,2573094,pathogenic
+SQSTM1,404,M,T,pathogenic,Pathogenic,1,"Frontotemporal dementia and/or amyotrophic lateral sclerosis 1;Paget disease of bone 2, early-onset",855037,pathogenic
+LMNA,33,E,G,pathogenic,Pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66962,pathogenic
+SOD1,107,L,F,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,934816,pathogenic
+AR,860,L,F,pathogenic,Pathogenic,1,not provided,4755689,pathogenic
+AR,710,E,K,pathogenic,Pathogenic,1,Androgen resistance syndrome;Kennedy disease,939472,pathogenic
+FUS,525,P,T,pathogenic,Pathogenic,1,"Tremor, hereditary essential, 4;Amyotrophic lateral sclerosis type 6",2046744,pathogenic
+VCP,89,R,Q,pathogenic,Pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,2051539,pathogenic
+LMNA,520,W,R,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,943114,pathogenic
+VCP,157,G,R,pathogenic,Pathogenic,1,not provided,871718,pathogenic
+LMNA,449,G,D,pathogenic,Pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66806,pathogenic
+SNCA,51,G,D,pathogenic,Pathogenic,1,Autosomal dominant Parkinson disease 1,97000,pathogenic
+LMNA,31,E,G,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,944168,pathogenic
+LMNA,138,E,K,pathogenic,Pathogenic,1,not provided,66897,pathogenic
+LMNA,140,L,P,pathogenic,Pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66898,pathogenic
+LMNA,232,G,R,pathogenic,Pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2|7 conditions,66924,pathogenic
+SOD1,7,C,S,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,1500887,pathogenic
+CRYAB,20,P,R,pathogenic,Pathogenic,1,Dilated cardiomyopathy 1II,4709887,pathogenic
+AR,403,A,V,pathogenic,Pathogenic,1,Prostate cancer,1685537,pathogenic
+AR,399,W,R,pathogenic,Pathogenic,1,Prostate cancer,1685535,pathogenic
+AR,829,D,V,pathogenic,Pathogenic,1,Male infertility|Non-obstructive azoospermia,1244244,pathogenic
+AR,728,N,K,pathogenic,Pathogenic,1,Prostate cancer,1685540,pathogenic
+AR,832,R,G,pathogenic,Pathogenic,1,Androgen resistance syndrome,1699233,pathogenic
+AR,743,M,K,pathogenic,Pathogenic,1,not provided,429837,pathogenic
+SOD1,81,H,R,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,14782,pathogenic
+SOD1,113,I,T,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,14762,pathogenic
+SOD1,146,A,T,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,14769,pathogenic
+TARDBP,295,G,S,pathogenic,Pathogenic,1,"Amyotrophic lateral sclerosis type 10|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10",21485,pathogenic
+SNCA,53,A,E,pathogenic,Pathogenic,1,Lewy body dementia;Autosomal dominant Parkinson disease 1,3759096,pathogenic
+VCP,97,G,E,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2Y|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,218306,pathogenic
+AR,726,F,L,pathogenic,Pathogenic,1,Kennedy disease;Androgen resistance syndrome,458362,pathogenic
+VCP,91,N,Y,pathogenic,Pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|INCLUSION BODY MYOPATHY WITHOUT EARLY-ONSET PAGET DISEASE AND FRONTOTEMPORAL DEMENTIA 1|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,217877,pathogenic
+FUS,514,R,S,pathogenic,Pathogenic,1,"Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4",3759352,pathogenic
+AR,839,L,I,pathogenic,Pathogenic,1,Androgen resistance syndrome;Kennedy disease,1460367,pathogenic
+FUS,518,R,K,pathogenic,Pathogenic,1,"Amyotrophic lateral sclerosis type 6|Tremor, hereditary essential, 4;Amyotrophic lateral sclerosis type 6",16223,pathogenic
+APP,717,V,G,pathogenic,Pathogenic,1,not provided|Alzheimer disease type 1,18090,pathogenic
+AR,765,F,L,pathogenic,Pathogenic,1,not provided,3337810,pathogenic
+AR,813,L,P,pathogenic,Pathogenic,1,not provided,449459,pathogenic
+TTR,134,Y,S,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",4710458,pathogenic
+AR,871,A,E,pathogenic,Pathogenic,1,Androgen resistance syndrome;Kennedy disease,3759649,pathogenic
+LMNA,372,E,G,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,1467968,pathogenic
+LMNA,133,R,L,pathogenic,Pathogenic,1,"Familial partial lipodystrophy, Dunnigan type|Hutchinson-Gilford progeria syndrome, childhood-onset|not provided|Charcot-Marie-Tooth disease type 2",14488,pathogenic
+TTR,88,I,L,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",4710457,pathogenic
+TTR,50,V,G,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",13465,pathogenic
+SOD1,94,G,A,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,14760,pathogenic
+LMNA,43,A,E,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,1457766,pathogenic
+AR,709,G,E,pathogenic,Pathogenic,1,Androgen resistance syndrome,1344487,pathogenic
+TTR,58,D,V,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",1458932,pathogenic
+APP,716,I,V,pathogenic,Pathogenic,1,Alzheimer disease type 1|not provided,18096,pathogenic
+SOD1,17,G,S,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,14776,pathogenic
+SOD1,94,G,C,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,14759,pathogenic
+APP,717,V,L,pathogenic,Pathogenic,1,not provided|Alzheimer disease type 1,18105,pathogenic
+APP,714,T,I,pathogenic,Pathogenic,1,Alzheimer disease type 1|not provided|Alzheimer disease,18100,pathogenic
+LMNA,1,M,V,pathogenic,Pathogenic,1,Cardiovascular phenotype,3229277,pathogenic
+LMNA,68,E,V,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,1412639,pathogenic
+LMNA,94,S,P,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,1357086,pathogenic
+AR,1,M,I,pathogenic,Pathogenic,1,Androgen resistance syndrome,3336686,pathogenic
+TTR,62,E,D,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",1068392,pathogenic
+SOD1,102,D,H,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,1066874,pathogenic
+LMNA,1,M,L,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,1076704,pathogenic
+AR,1,M,L,pathogenic,Pathogenic,1,Androgen resistance syndrome;Kennedy disease,1470535,pathogenic
+TTR,69,T,P,pathogenic,Pathogenic,1,not provided,2920997,pathogenic
+VCP,158,M,V,pathogenic,Pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,1457378,pathogenic
+AR,767,P,A,pathogenic,Pathogenic,1,Androgen resistance syndrome|not provided,492794,pathogenic
+LMNA,386,R,G,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,647241,pathogenic
+AR,893,P,S,pathogenic,Pathogenic,1,Kennedy disease;Androgen resistance syndrome,2925682,pathogenic
+AR,831,L,F,pathogenic,Pathogenic,1,Kennedy disease;Androgen resistance syndrome,2925681,pathogenic
+TTR,54,R,G,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",660385,pathogenic
+TTR,77,G,R,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",660445,pathogenic
+SOD1,21,F,C,pathogenic,Pathogenic,1,Amyotrophic lateral sclerosis type 1,1459352,pathogenic
+MAPT,712,S,F,pathogenic,Pathogenic,1,Pick disease|not provided|Frontotemporal dementia,14262,pathogenic
+VCP,262,T,A,pathogenic,Pathogenic,1,not provided,4539954,pathogenic
+LMNA,92,L,P,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,1071935,pathogenic
+LMNA,276,Q,P,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,2759749,pathogenic
+LMNA,375,A,G,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,2733998,pathogenic
+LMNA,41,R,C,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,2733990,pathogenic
+LMNA,384,E,K,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,1069324,pathogenic
+TTR,61,W,L,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1",1075408,pathogenic
+AR,602,C,F,pathogenic,Pathogenic,1,Differences in sex development,4281673,pathogenic
+TARDBP,345,N,K,pathogenic,Pathogenic,1,"FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10",21467,pathogenic
+VCP,155,R,S,pathogenic,Pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,1457380,pathogenic
+AR,602,C,G,pathogenic,Pathogenic,1,not provided,235415,pathogenic
+APP,693,E,K,pathogenic,Pathogenic,1,"ABeta amyloidosis, Italian type|not provided|Alzheimer disease",18099,pathogenic
+AR,781,M,I,pathogenic,Pathogenic,1,Androgen resistance syndrome|not provided,492796,pathogenic
+LMNA,528,T,P,pathogenic,Pathogenic,1,not provided,500663,pathogenic
+VCP,137,P,L,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2Y,3768936,pathogenic
+LMNA,373,I,M,pathogenic,Pathogenic,1,Charcot-Marie-Tooth disease type 2,580670,pathogenic
+AR,569,G,W,pathogenic,Pathogenic,1,Kennedy disease;Androgen resistance syndrome,533379,pathogenic
+AR,742,W,L,pathogenic,Pathogenic,1,Kennedy disease;Androgen resistance syndrome,1068775,pathogenic
+AR,687,C,R,pathogenic,Pathogenic,1,Male infertility,3061774,pathogenic
+TTR,69,T,I,pathogenic,Pathogenic,1,"Amyloidosis, hereditary systemic 1|TTR-related disorder",1454801,pathogenic
+TARDBP,337,M,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 10|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10|not provided",5228,pathogenic
+TARDBP,348,G,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 10|not provided|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10",5234,pathogenic
+VCP,191,R,Q,likely_pathogenic,Pathogenic/Likely pathogenic,2,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|not provided|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1;Charcot-Marie-Tooth disease type 2Y;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,8473,pathogenic
+PRNP,178,D,N,likely_pathogenic,Pathogenic/Likely pathogenic,2,Fatal familial insomnia|not provided|Huntington disease-like 1|Huntington disease-like 1;Spongiform encephalopathy with neuropsychiatric features;Gerstmann-Straussler-Scheinker syndrome,39359,pathogenic
+PRNP,217,Q,R,likely_pathogenic,Likely pathogenic,2,Gerstmann-Straussler-Scheinker syndrome|Huntington disease-like 1|PRNP-related disorder,13402,pathogenic
+PRNP,210,V,I,likely_pathogenic,"Pathogenic/Likely pathogenic/Pathogenic, low penetrance",2,Inherited Creutzfeldt-Jakob disease|Huntington disease-like 1|6 conditions|Inborn genetic diseases,13403,pathogenic
+AR,608,R,Q,likely_pathogenic,Pathogenic/Likely pathogenic,2,Partial androgen insensitivity syndrome|not provided|Kennedy disease;Androgen resistance syndrome,9820,pathogenic
+AR,856,R,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,Partial androgen insensitivity syndrome|Kennedy disease;Androgen resistance syndrome|Androgen resistance syndrome|Male infertility,9823,pathogenic
+VCP,155,R,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|not provided|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,8469,pathogenic
+AR,808,M,T,likely_pathogenic,Likely pathogenic,2,Partial androgen insensitivity syndrome|not provided|Kennedy disease;Androgen resistance syndrome,9847,pathogenic
+TTR,97,S,Y,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Charcot-Marie-Tooth disease|Cardiovascular phenotype|Amyloidosis, hereditary systemic 1;Carpal tunnel syndrome 1;Hyperthyroxinemia, dystransthyretinemic",13422,pathogenic
+PRNP,131,G,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,Gerstmann-Straussler-Scheinker syndrome|Huntington disease-like 1,13410,pathogenic
+TTR,89,Y,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13466,pathogenic
+TTR,117,A,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype|Amyloidosis, hereditary systemic 1;Carpal tunnel syndrome 1;Hyperthyroxinemia, dystransthyretinemic",13468,pathogenic
+SOD1,150,I,T,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided|SOD1-related disorder,1455194,pathogenic
+TTR,104,I,T,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",1452255,pathogenic
+PRNP,148,R,H,likely_pathogenic,Likely pathogenic,2,Huntington disease-like 1|Inherited Creutzfeldt-Jakob disease,1507942,pathogenic
+LMNA,530,L,F,likely_pathogenic,Pathogenic/Likely pathogenic,2,Muscular dystrophy|Charcot-Marie-Tooth disease type 2,435773,pathogenic
+TTR,109,E,D,likely_pathogenic,Likely pathogenic,2,"Cardiovascular phenotype|Amyloidosis, hereditary systemic 1",3464275,pathogenic
+LMNA,376,Y,H,likely_pathogenic,Likely pathogenic,2,not provided|Limb-girdle muscular dystrophy,429219,pathogenic
+LMNA,306,L,P,likely_pathogenic,Likely pathogenic,2,not provided|Dilated cardiomyopathy 1A,245950,pathogenic
+VCP,155,R,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|not provided|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,217028,pathogenic
+SOD1,148,G,A,likely_pathogenic,Likely pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,3602194,pathogenic
+TTR,87,G,E,likely_pathogenic,Likely pathogenic,2,"not provided|Amyloidosis, hereditary systemic 1",3338803,pathogenic
+AR,616,R,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome|Androgen resistance syndrome;Kennedy disease,434266,pathogenic
+TTR,65,A,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype|not provided",448841,pathogenic
+LMNA,53,E,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,Charcot-Marie-Tooth disease type 2|not provided,424915,pathogenic
+LMNA,203,E,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,Dilated cardiomyopathy 1A|not provided|Primary dilated cardiomyopathy|Charcot-Marie-Tooth disease type 2,14484,pathogenic
+TTR,110,H,D,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",1524375,pathogenic
+SOD1,39,L,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,14753,pathogenic
+LMNA,249,R,W,likely_pathogenic,Pathogenic/Likely pathogenic,2,Congenital muscular dystrophy due to LMNA mutation|not provided|Charcot-Marie-Tooth disease type 2|LMNA-related disorder,14524,pathogenic
+LMNA,92,L,F,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Cardiovascular phenotype|Charcot-Marie-Tooth disease type 2,66885,pathogenic
+LMNA,10,T,I,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Dilated cardiomyopathy 1A|not provided|Familial partial lipodystrophy, Dunnigan type|Lipodystrophy|Inborn genetic diseases",66888,pathogenic
+LMNA,541,R,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2|Primary dilated cardiomyopathy,66859,pathogenic
+LMNA,541,R,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Primary dilated cardiomyopathy|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|Dilated cardiomyopathy 1A|Hutchinson-Gilford syndrome|LMNA-related disorder|Congenital muscular dystrophy|Emery-Dreifuss muscular dystrophy 2, autosomal dominant",66860,pathogenic
+LMNA,249,R,Q,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Emery-Dreifuss muscular dystrophy 2, autosomal dominant|Muscular dystrophy|Dilated cardiomyopathy 1A|Charcot-Marie-Tooth disease type 2|Charcot-Marie-Tooth disease type 2B1|Abnormality of the musculature|Cardiomyopathy|Congenital muscular dystrophy|11 conditions",66931,pathogenic
+LMNA,89,R,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype,66884,pathogenic
+VCP,271,G,D,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided,2429745,pathogenic
+SOD1,15,V,M,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1,873322,pathogenic
+SOD1,23,Q,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1,873323,pathogenic
+LMNA,166,R,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Cardiovascular phenotype|Dilated cardiomyopathy 1A|Charcot-Marie-Tooth disease type 2|Primary dilated cardiomyopathy,66901,pathogenic
+TTR,65,A,T,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",850453,pathogenic
+LMNA,453,R,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Charcot-Marie-Tooth disease type 2|Emery-Dreifuss muscular dystrophy 2, autosomal dominant",66808,pathogenic
+LMNA,383,E,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,Charcot-Marie-Tooth disease type 2|not provided|Congenital muscular dystrophy due to LMNA mutation,949101,pathogenic
+SOD1,86,G,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Spastic tetraplegia and axial hypotonia, progressive|Amyotrophic lateral sclerosis type 1|SOD1-related disorder",932081,pathogenic
+LMNA,143,S,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Dilated cardiomyopathy 1A|Charcot-Marie-Tooth disease type 2|Primary dilated cardiomyopathy,66899,pathogenic
+AR,572,Y,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome;Kennedy disease|Androgen resistance syndrome|AR-related disorder,863409,pathogenic
+SOD1,88,V,A,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,858432,pathogenic
+TTR,109,E,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",846359,pathogenic
+TTR,54,R,T,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1",840757,pathogenic
+TTR,52,V,A,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",944589,pathogenic
+LMNA,541,R,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Bethlem myopathy 1A,66861,pathogenic
+LMNA,528,T,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Emery-Dreifuss muscular dystrophy 2, autosomal dominant|Charcot-Marie-Tooth disease type 2|Hutchinson-Gilford syndrome",66849,pathogenic
+LMNA,35,L,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Muscular dystrophy|Charcot-Marie-Tooth disease type 2,66765,pathogenic
+AR,757,N,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Male infertility|Kennedy disease;Androgen resistance syndrome|Androgen resistance syndrome|Hypospadias 1, X-linked;Partial androgen insensitivity syndrome;Prostate cancer, hereditary, X-linked 3;Kennedy disease;Androgen resistance syndrome",2572770,pathogenic
+TTR,74,E,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not specified|Cardiovascular phenotype|not provided|Amyloidosis, hereditary systemic 1",811803,pathogenic
+LMNA,331,R,P,likely_pathogenic,Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2,66963,pathogenic
+LMNA,33,E,D,likely_pathogenic,Likely pathogenic,2,not provided,66964,pathogenic
+TTR,67,G,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",938206,pathogenic
+AR,856,R,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome;Kennedy disease|not provided,951460,pathogenic
+LMNA,203,E,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2|Primary familial dilated cardiomyopathy,66915,pathogenic
+LMNA,219,K,T,likely_pathogenic,Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2,66922,pathogenic
+LMNA,232,G,E,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Emery-Dreifuss muscular dystrophy 2, autosomal dominant|Charcot-Marie-Tooth disease type 2",66925,pathogenic
+LMNA,300,D,N,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Lipodystrophy|Charcot-Marie-Tooth disease type 2|Dilated cardiomyopathy 1A|Cardiomyopathy|Hutchinson-Gilford syndrome,66952,pathogenic
+LMNA,28,R,W,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype,66946,pathogenic
+LMNA,25,R,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|Emery-Dreifuss muscular dystrophy 2, autosomal dominant",66928,pathogenic
+LMNA,25,R,C,likely_pathogenic,Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|Dilated cardiomyopathy 1A,66929,pathogenic
+AR,741,S,F,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Androgen resistance syndrome,988302,pathogenic
+LMNA,482,R,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype,964333,pathogenic
+TTR,58,D,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",962411,pathogenic
+LMNA,377,R,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|Congenital muscular dystrophy due to LMNA mutation|Primary dilated cardiomyopathy,66778,pathogenic
+MAPT,727,G,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Frontotemporal dementia,98228,pathogenic
+TTR,87,G,R,likely_pathogenic,Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided",1006084,pathogenic
+SOD1,96,A,T,likely_pathogenic,Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,2197104,pathogenic
+LMNA,39,N,D,likely_pathogenic,Likely pathogenic,2,Charcot-Marie-Tooth disease type 2|Congenital muscular dystrophy due to LMNA mutation,2202857,pathogenic
+LMNA,27,T,I,likely_pathogenic,Likely pathogenic,2,Congenital muscular dystrophy due to LMNA mutation;Dilated cardiomyopathy 1A|Charcot-Marie-Tooth disease type 2,804298,pathogenic
+SOD1,77,D,Y,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,805494,pathogenic
+TTR,93,I,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Hereditary amyloidosis|not provided",803482,pathogenic
+AR,825,Q,K,likely_pathogenic,Likely pathogenic,2,AR-related disorder|Kennedy disease;Androgen resistance syndrome|Androgen resistance syndrome,2631223,pathogenic
+TTR,65,A,D,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Amyloidosis, hereditary systemic 1",181702,pathogenic
+SOD1,49,H,R,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,807693,pathogenic
+VCP,256,R,G,likely_pathogenic,Likely pathogenic,2,Childhood Onset VCP-related Neurodevelopmental Disorder|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Charcot-Marie-Tooth disease type 2Y,2582679,pathogenic
+SOD1,116,R,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,805495,pathogenic
+SOD1,106,S,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis|Amyotrophic lateral sclerosis type 1,695024,pathogenic
+TTR,79,T,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",181694,pathogenic
+TTR,73,G,R,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",1067499,pathogenic
+SOD1,125,D,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,1067619,pathogenic
+AR,746,M,T,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome|Androgen resistance syndrome;Kennedy disease,1065434,pathogenic
+TTR,60,T,N,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype|not provided",1066429,pathogenic
+AR,893,P,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome;Kennedy disease|not provided|Androgen resistance syndrome,654813,pathogenic
+AR,747,V,M,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome;Kennedy disease|not provided,658947,pathogenic
+MAPT,728,Q,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,Frontotemporal dementia,665222,pathogenic
+TTR,43,S,N,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",661615,pathogenic
+LMNA,349,R,W,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Monogenic diabetes|Charcot-Marie-Tooth disease type 2|Familial partial lipodystrophy, Dunnigan type|6 conditions|Laminopathy|Cardiovascular phenotype|11 conditions|Primary dilated cardiomyopathy",66762,pathogenic
+LMNA,215,L,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,Dilated cardiomyopathy 1A|not provided|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype,65764,pathogenic
+LMNA,317,E,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,Primary dilated cardiomyopathy|not provided|Charcot-Marie-Tooth disease type 2|Cardiomyopathy|not specified|Primary familial dilated cardiomyopathy|Dilated cardiomyopathy 1A|Cardiovascular phenotype|LMNA-related disorder|Laminopathy,48093,pathogenic
+TTR,40,V,A,likely_pathogenic,Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided",2169600,pathogenic
+VCP,156,G,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,2136763,pathogenic
+SOD1,77,D,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,1030809,pathogenic
+SOD1,48,V,A,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1,1018905,pathogenic
+TTR,81,E,G,likely_pathogenic,Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",572472,pathogenic
+SOD1,41,E,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1,575420,pathogenic
+TTR,80,T,I,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",577420,pathogenic
+TTR,39,A,D,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",565560,pathogenic
+SOD1,17,G,A,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,586638,pathogenic
+SOD1,101,E,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided|Amyotrophic lateral sclerosis,574319,pathogenic
+FUS,510,K,E,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4|not provided",2925591,pathogenic
+LMNA,150,T,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,Primary dilated cardiomyopathy|not provided|Inborn genetic diseases|Charcot-Marie-Tooth disease type 2,48067,pathogenic
+LMNA,203,E,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,Dilated cardiomyopathy 1A|not provided|Primary dilated cardiomyopathy|Cardiovascular phenotype|Charcot-Marie-Tooth disease type 2|8 conditions|LMNA-related disorder,48070,pathogenic
+LMNA,267,Y,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,Primary dilated cardiomyopathy|not provided|Cardiovascular phenotype|Charcot-Marie-Tooth disease type 2,48084,pathogenic
+LMNA,206,F,L,likely_pathogenic,Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2,636395,pathogenic
+SOD1,66,N,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1,1709733,pathogenic
+SOD1,149,V,I,likely_pathogenic,Likely pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,1711542,pathogenic
+LMNA,249,R,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Laminopathy|Charcot-Marie-Tooth disease type 2|Emery-Dreifuss muscular dystrophy 2, autosomal dominant",48077,pathogenic
+LMNA,377,R,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Primary dilated cardiomyopathy|not provided|Charcot-Marie-Tooth disease type 2|Dilated cardiomyopathy 1A|Charcot-Marie-Tooth disease type 2B1|Cardiovascular phenotype|Dilated cardiomyopathy 1A;Congenital muscular dystrophy due to LMNA mutation;Emery-Dreifuss muscular dystrophy 2, autosomal dominant|Cardiomyopathy",48031,pathogenic
+LMNA,65,E,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,Charcot-Marie-Tooth disease type 2|not provided,1074127,pathogenic
+LMNA,62,R,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,Primary familial dilated cardiomyopathy|Charcot-Marie-Tooth disease type 2,3907369,pathogenic
+TARDBP,352,N,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 10|not provided|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10|TARDBP-related disorder",21468,pathogenic
+AR,724,P,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome,1077100,pathogenic
+TTR,109,E,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",1073324,pathogenic
+TTR,127,I,M,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",1073325,pathogenic
+LMNA,541,R,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,Dilated cardiomyopathy 1A|not provided|Primary dilated cardiomyopathy|Cardiovascular phenotype|Charcot-Marie-Tooth disease type 2|Laminopathy|Cardiomyopathy,48046,pathogenic
+SOD1,148,G,D,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,536142,pathogenic
+TTR,82,E,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",495841,pathogenic
+TARDBP,311,M,V,likely_pathogenic,Likely pathogenic,2,"FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10|not provided|Amyotrophic lateral sclerosis type 10|TARDBP-related disorder",21487,pathogenic
+LMNA,335,R,W,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Primary dilated cardiomyopathy|not provided|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|Heart-hand syndrome, Slovenian type|Left ventricular noncompaction|Primary dilated cardiomyopathy;Laminopathy|Arrhythmogenic right ventricular cardiomyopathy|Dilated cardiomyopathy 1A|11 conditions|Cardiomyopathy|LMNA-related disorder|Primary familial dilated cardiomyopathy",36473,pathogenic
+LMNA,62,R,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,Charcot-Marie-Tooth disease type 2|Dilated cardiomyopathy 1A,570592,pathogenic
+LMNA,372,E,D,likely_pathogenic,Pathogenic/Likely pathogenic,2,Dilated cardiomyopathy 1A|Charcot-Marie-Tooth disease type 2,559576,pathogenic
+APP,713,A,T,likely_pathogenic,Likely pathogenic,2,"Alzheimer disease type 1|not provided|Alzheimer disease|Primary degenerative dementia of the Alzheimer type, presenile onset|Cerebral amyloid angiopathy, APP-related",18094,pathogenic
+SOD1,125,D,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,1212596,pathogenic
+SOD1,90,A,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,1191297,pathogenic
+AR,588,A,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Androgen resistance syndrome,1196591,pathogenic
+LMNA,471,R,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,Primary dilated cardiomyopathy|not provided|Dilated cardiomyopathy 1A|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|Cardiomyopathy,36476,pathogenic
+TARDBP,287,G,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 10|not provided|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10|Motor neuron disease|TARDBP-related disorder",21483,pathogenic
+AR,702,L,F,likely_pathogenic,Likely pathogenic,2,Androgen resistance syndrome|not provided|Differences in sex development,492788,pathogenic
+AR,753,R,Q,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome|Androgen resistance syndrome;Kennedy disease|Differences in sex development|not provided,492792,pathogenic
+VCP,185,E,K,likely_pathogenic,Likely pathogenic,2,Charcot-Marie-Tooth disease type 2Y|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia|Inborn genetic diseases,218305,pathogenic
+SOD1,114,I,T,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 1|not provided|Motor neuron disease|SOD1-related disorder|Spastic tetraplegia and axial hypotonia, progressive",197145,pathogenic
+TIA1,384,E,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Welander distal myopathy,41480,pathogenic
+AR,871,A,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Androgen resistance syndrome|Androgen resistance syndrome;Kennedy disease|not provided|Hypospadias 1, X-linked|Differences in sex development|Partial androgen insensitivity syndrome",492801,pathogenic
+TARDBP,383,I,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 10|not provided|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10|See cases|TARDBP-related disorder",21476,pathogenic
+TTR,98,Y,F,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype|not provided",1294424,pathogenic
+SOD1,138,T,I,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Amyotrophic lateral sclerosis type 1,1163753,pathogenic
+SOD1,15,V,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1,1514873,pathogenic
+AR,904,V,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome,1333387,pathogenic
+TTR,142,V,A,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1",1333466,pathogenic
+SOD1,120,V,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|See cases|SOD1-related disorder,1489352,pathogenic
+LMNA,482,R,W,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Familial partial lipodystrophy, Dunnigan type|not provided|Charcot-Marie-Tooth disease|Familial partial lipodystrophy|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|11 conditions|LMNA-related disorder",14489,pathogenic
+AR,688,A,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Androgen resistance syndrome;Kennedy disease,3340612,pathogenic
+SQSTM1,411,G,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Frontotemporal dementia and/or amyotrophic lateral sclerosis 1;Paget disease of bone 2, early-onset|Myopathy, distal, with rimmed vacuoles|Frontotemporal dementia and/or amyotrophic lateral sclerosis 3|SQSTM1-related disorder|Frontotemporal dementia and/or amyotrophic lateral sclerosis 3;Paget disease of bone 3;Myopathy, distal, with rimmed vacuoles|not provided",1458052,pathogenic
+AR,733,D,N,likely_pathogenic,Pathogenic/Likely pathogenic,2,Androgen resistance syndrome;Kennedy disease|not provided,1338469,pathogenic
+LMNA,32,K,E,likely_pathogenic,Pathogenic/Likely pathogenic,2,Charcot-Marie-Tooth disease type 2|Congenital muscular dystrophy due to LMNA mutation,476837,pathogenic
+TTR,79,T,I,likely_pathogenic,Likely pathogenic,2,"Amyloidosis|Amyloidosis, hereditary systemic 1",3338365,pathogenic
+SOD1,13,G,R,likely_pathogenic,Likely pathogenic,2,Amyotrophic lateral sclerosis type 1,14780,pathogenic
+LMNA,161,E,K,likely_pathogenic,Pathogenic/Likely pathogenic,2,Dilated cardiomyopathy 1A|not provided|Primary dilated cardiomyopathy|Charcot-Marie-Tooth disease type 2|Cardiomyopathy|Long QT syndrome|Cardiovascular phenotype,14504,pathogenic
+APP,715,V,M,likely_pathogenic,Pathogenic/Likely pathogenic,2,Alzheimer disease type 1|not provided|Alzheimer disease,18097,pathogenic
+TARDBP,382,A,T,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 10|FRONTOTEMPORAL DEMENTIA WITH TDP43 INCLUSIONS, TARDBP-RELATED|not provided|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10|TARDBP-related disorder",21474,pathogenic
+TTR,53,F,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided",3723125,pathogenic
+TARDBP,298,G,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 10|not provided|FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED;Amyotrophic lateral sclerosis type 10|TARDBP-related disorder",5232,pathogenic
+PRNP,180,V,I,likely_pathogenic,"Pathogenic/Likely pathogenic/Pathogenic, low penetrance",2,Inherited Creutzfeldt-Jakob disease|Inherited prion disease|Huntington disease-like 1|6 conditions|Spongiform encephalopathy with neuropsychiatric features,13405,pathogenic
+TTR,142,V,I,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiomyopathy|Cardiovascular phenotype|ATTRV122I amyloidosis|Charcot-Marie-Tooth disease|Amyloidosis, hereditary systemic 1;Hyperthyroxinemia, dystransthyretinemic;Carpal tunnel syndrome 1|Tip-toe gait|TTR-related disorder|Amyloidosis",13426,pathogenic
+TTR,64,F,S,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",13461,pathogenic
+PRNP,208,R,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,Inherited Creutzfeldt-Jakob disease|not provided|PRNP-related disorder|Huntington disease-like 1,13411,pathogenic
+LMNA,28,R,Q,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Charcot-Marie-Tooth disease type 2|Emery-Dreifuss muscular dystrophy 2, autosomal dominant",285468,pathogenic
+VCP,159,R,C,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,280123,pathogenic
+LMNA,453,R,W,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Emery-Dreifuss muscular dystrophy 2, autosomal dominant|not provided|Muscular dystrophy|Charcot-Marie-Tooth disease type 2|Dilated cardiomyopathy 1A|Abnormality of the musculature|Congenital muscular dystrophy due to LMNA mutation|Cardiovascular phenotype",14478,pathogenic
+TTR,30,C,R,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13444,pathogenic
+MAPT,781,G,R,likely_pathogenic,Pathogenic/Likely pathogenic,2,Pick disease|not provided|Frontotemporal dementia,14255,pathogenic
+TTR,127,I,V,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype|Carpal tunnel syndrome 1;Amyloidosis, hereditary systemic 1;Hyperthyroxinemia, dystransthyretinemic|Hereditary amyloidosis",13450,pathogenic
+LMNA,465,G,D,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Familial partial lipodystrophy, Dunnigan type|not provided|Charcot-Marie-Tooth disease type 2",14493,pathogenic
+FUS,521,R,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 6|Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4",873232,pathogenic
+VCP,191,R,P,likely_pathogenic,Pathogenic/Likely pathogenic,2,Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,873223,pathogenic
+LMNA,190,R,Q,likely_pathogenic,Pathogenic/Likely pathogenic,2,not provided|Charcot-Marie-Tooth disease type 2|Cardiovascular phenotype|Cardiomyopathy|Primary dilated cardiomyopathy|Dilated cardiomyopathy 1A,66910,pathogenic
+SOD1,88,V,M,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1,873199,pathogenic
+SOD1,21,F,L,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 1|Amyotrophic lateral sclerosis type 1;Spastic tetraplegia and axial hypotonia, progressive",859765,pathogenic
+SOD1,85,L,F,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyotrophic lateral sclerosis type 1|Amyotrophic lateral sclerosis type 1;Spastic tetraplegia and axial hypotonia, progressive",855744,pathogenic
+LMNA,528,T,R,likely_pathogenic,Pathogenic/Likely pathogenic,2,"not provided|Charcot-Marie-Tooth disease type 2|Familial partial lipodystrophy, Dunnigan type|Abnormality of the musculature|Congenital muscular dystrophy due to LMNA mutation|Cardiovascular phenotype",66850,pathogenic
+SOD1,149,V,G,likely_pathogenic,Pathogenic/Likely pathogenic,2,Amyotrophic lateral sclerosis type 1|not provided,873204,pathogenic
+TTR,78,L,H,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiovascular phenotype",13420,pathogenic
+TTR,80,T,A,likely_pathogenic,Pathogenic/Likely pathogenic,2,"Amyloidosis, hereditary systemic 1|not provided|Cardiomyopathy|Charcot-Marie-Tooth disease|Cardiovascular phenotype",13421,pathogenic
+TTR,48,V,M,likely_pathogenic,Likely pathogenic,2,"Cardiovascular phenotype|Amyloidosis, hereditary systemic 1",4193819,pathogenic
+AR,581,K,R,likely_pathogenic,Likely pathogenic,1,not provided,4082473,pathogenic
+AR,856,R,P,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,4081597,pathogenic
+AR,777,H,D,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,4081595,pathogenic
+AR,711,R,G,likely_pathogenic,Likely pathogenic,1,not provided,4082475,pathogenic
+FUS,509,G,D,likely_pathogenic,Likely pathogenic,1,not provided,4084959,pathogenic
+AR,811,L,P,likely_pathogenic,Likely pathogenic,1,not provided,4082479,pathogenic
+AR,682,E,G,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,4077404,pathogenic
+SNCA,30,A,P,likely_pathogenic,Likely pathogenic,1,Autosomal dominant Parkinson disease 1,14008,pathogenic
+AR,585,K,E,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,4755452,pathogenic
+LMNA,111,E,K,likely_pathogenic,Likely pathogenic,1,Hutchinson-Gilford syndrome,2572315,pathogenic
+VCP,216,I,M,likely_pathogenic,Likely pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Lewy body dementia,836876,pathogenic
+AR,773,E,K,likely_pathogenic,Likely pathogenic,1,Partial androgen insensitivity syndrome,2507021,pathogenic
+AR,691,D,G,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,2575082,pathogenic
+AR,596,C,Y,likely_pathogenic,Likely pathogenic,1,not provided,2573824,pathogenic
+AR,782,Y,D,likely_pathogenic,Likely pathogenic,1,not provided,2573828,pathogenic
+TARDBP,378,N,S,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 10,2501300,pathogenic
+LMNA,225,R,L,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,1364825,pathogenic
+SOD1,17,G,C,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,1477719,pathogenic
+VCP,91,N,K,likely_pathogenic,Likely pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,1496153,pathogenic
+LMNA,48,R,G,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,1386753,pathogenic
+CRYAB,109,D,G,likely_pathogenic,Likely pathogenic,1,"Cardiomyopathy, familial restrictive, 1|Dilated cardiomyopathy 1II",265829,pathogenic
+LMNA,278,A,V,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,3683466,pathogenic
+APP,713,A,E,likely_pathogenic,Likely pathogenic,1,Alzheimer disease,3690355,pathogenic
+SOD1,146,A,V,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,1475411,pathogenic
+FUS,514,R,W,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 6,803253,pathogenic
+VCP,251,K,N,likely_pathogenic,Likely pathogenic,1,Childhood Onset VCP-related Neurodevelopmental Disorder,2582678,pathogenic
+LMNA,291,E,V,likely_pathogenic,Likely pathogenic,1,Dilated cardiomyopathy 1A,2502156,pathogenic
+TARDBP,377,S,P,likely_pathogenic,Likely pathogenic,1,Frontotemporal dementia,801435,pathogenic
+AR,386,R,L,likely_pathogenic,Likely pathogenic,1,Ovarian cancer,2445360,pathogenic
+AR,736,A,D,likely_pathogenic,Likely pathogenic,1,Ovarian cancer,2445373,pathogenic
+AR,454,G,R,likely_pathogenic,Likely pathogenic,1,Ovarian cancer,2445393,pathogenic
+AR,474,E,G,likely_pathogenic,Likely pathogenic,1,Ovarian cancer,2445359,pathogenic
+FUS,519,Q,R,likely_pathogenic,Likely pathogenic,1,not provided,2498660,pathogenic
+LMNA,42,L,S,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,1479657,pathogenic
+AR,773,E,G,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease,1480317,pathogenic
+LMNA,335,R,P,likely_pathogenic,Likely pathogenic,1,"Charcot-Marie-Tooth disease type 2B1;Mandibuloacral dysplasia with type A lipodystrophy;Emery-Dreifuss muscular dystrophy 3, autosomal recessive",3896901,pathogenic
+LMNA,259,Y,H,likely_pathogenic,Likely pathogenic,1,not provided|Dilated cardiomyopathy 1A,66933,pathogenic
+LMNA,25,R,P,likely_pathogenic,Likely pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66932,pathogenic
+SOD1,67,P,R,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3897013,pathogenic
+APP,687,K,N,likely_pathogenic,Likely pathogenic,1,"Alzheimer disease type 1;Cerebral amyloid angiopathy, APP-related",2628367,pathogenic
+VCP,248,G,R,likely_pathogenic,Likely pathogenic,1,VCP-related disorder,2584478,pathogenic
+MAPT,756,P,T,likely_pathogenic,Likely pathogenic,1,Frontotemporal dementia,807628,pathogenic
+VCP,362,R,C,likely_pathogenic,Likely pathogenic,1,Childhood Onset VCP-related Neurodevelopmental Disorder,2582681,pathogenic
+VCP,541,S,Y,likely_pathogenic,Likely pathogenic,1,Childhood Onset VCP-related Neurodevelopmental Disorder,2582682,pathogenic
+SOD1,72,H,Y,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,873198,pathogenic
+SOD1,126,D,N,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,873200,pathogenic
+LMNA,41,R,P,likely_pathogenic,Likely pathogenic,1,not provided,806240,pathogenic
+SOD1,134,E,K,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,873201,pathogenic
+TARDBP,354,Q,E,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 10,873228,pathogenic
+FUS,524,R,M,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 6,873233,pathogenic
+SOD1,69,S,P,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,873197,pathogenic
+VCP,188,P,H,likely_pathogenic,Likely pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1,4072034,pathogenic
+AR,709,G,V,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease|Nonpapillary renal cell carcinoma,1506100,pathogenic
+LMNA,133,R,P,likely_pathogenic,Likely pathogenic,1,"Emery-Dreifuss muscular dystrophy 2, autosomal dominant|not provided|Charcot-Marie-Tooth disease type 2",14508,pathogenic
+APP,719,T,P,likely_pathogenic,Likely pathogenic,1,Alzheimer disease type 1,1342870,pathogenic
+VCP,95,R,H,likely_pathogenic,Likely pathogenic,1,Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,1513178,pathogenic
+SOD1,105,I,F,likely_pathogenic,Likely pathogenic,1,"Amyotrophic lateral sclerosis 1, autosomal recessive|Abnormal central motor function",14767,pathogenic
+TTR,80,T,N,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",3649160,pathogenic
+TTR,88,I,M,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",3664844,pathogenic
+SOD1,116,R,S,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3897014,pathogenic
+LMNA,62,R,P,likely_pathogenic,Likely pathogenic,1,"Emery-Dreifuss muscular dystrophy 2, autosomal dominant",3896898,pathogenic
+AR,590,G,E,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,3893234,pathogenic
+LMNA,192,D,V,likely_pathogenic,Likely pathogenic,1,not provided|Dilated cardiomyopathy 1A,66912,pathogenic
+SOD1,148,G,C,likely_pathogenic,Likely pathogenic,1,not provided,2652587,pathogenic
+VCP,56,T,A,likely_pathogenic,Likely pathogenic,1,not provided,2659168,pathogenic
+VCP,406,H,R,likely_pathogenic,Likely pathogenic,1,Inborn genetic diseases,3814841,pathogenic
+LMNA,466,N,D,likely_pathogenic,Likely pathogenic,1,not provided,1338284,pathogenic
+AR,890,V,L,likely_pathogenic,Likely pathogenic,1,not provided,1338633,pathogenic
+SOD1,122,E,K,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3637818,pathogenic
+LMNA,10,T,S,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,3633621,pathogenic
+AR,753,R,L,likely_pathogenic,Likely pathogenic,1,not provided,390372,pathogenic
+AR,713,L,I,likely_pathogenic,Likely pathogenic,1,not provided,391803,pathogenic
+LMNA,249,R,P,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,3633630,pathogenic
+LMNA,59,L,V,likely_pathogenic,Likely pathogenic,1,Hutchinson-Gilford syndrome,3899356,pathogenic
+TTR,126,T,I,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",4695352,pathogenic
+LMNA,541,R,L,likely_pathogenic,Likely pathogenic,1,Cardiovascular phenotype,3895004,pathogenic
+AR,780,R,P,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,2674671,pathogenic
+APP,705,L,V,likely_pathogenic,Likely pathogenic,1,"CEREBRAL AMYLOID ANGIOPATHY, APP-RELATED, PIEDMONT VARIANT|not provided|Cerebral amyloid angiopathy, APP-related",18103,pathogenic
+SOD1,7,C,G,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,1500897,pathogenic
+PRNP,131,G,E,likely_pathogenic,Likely pathogenic,1,Gerstmann-Straussler-Scheinker syndrome,1334094,pathogenic
+LMNA,446,D,N,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2|Hepatocellular carcinoma,3633636,pathogenic
+AR,610,K,E,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,3572937,pathogenic
+SOD1,15,V,G,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,1500907,pathogenic
+TTR,140,A,V,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",3621650,pathogenic
+AR,574,A,P,likely_pathogenic,Likely pathogenic,1,not provided,381643,pathogenic
+LMNA,56,N,K,likely_pathogenic,Likely pathogenic,1,7 conditions,1341358,pathogenic
+SOD1,150,I,M,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis,1343332,pathogenic
+FUS,525,P,S,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 6,2671949,pathogenic
+AR,429,A,D,likely_pathogenic,Likely pathogenic,1,Male infertility with azoospermia or oligozoospermia due to single gene mutation,2690958,pathogenic
+SOD1,15,V,A,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,4699222,pathogenic
+LMNA,520,W,C,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2734000,pathogenic
+LMNA,99,R,P,likely_pathogenic,Likely pathogenic,1,Primary familial dilated cardiomyopathy,684819,pathogenic
+LMNA,133,R,G,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2733992,pathogenic
+LMNA,25,R,H,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2756520,pathogenic
+VCP,358,R,Q,likely_pathogenic,Likely pathogenic,1,Inborn genetic diseases,3979549,pathogenic
+TTR,84,F,I,likely_pathogenic,Likely pathogenic,1,Cardiovascular phenotype,4615388,pathogenic
+LMNA,148,L,P,likely_pathogenic,Likely pathogenic,1,not provided,245752,pathogenic
+TTR,30,C,Y,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",1490986,pathogenic
+LMNA,85,L,H,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,242004,pathogenic
+FUS,254,M,V,likely_pathogenic,Likely pathogenic,1,not provided,427141,pathogenic
+AR,630,R,W,likely_pathogenic,Likely pathogenic,1,not provided,427107,pathogenic
+LMNA,373,I,S,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,408993,pathogenic
+LMNA,245,L,Q,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2709822,pathogenic
+SOD1,97,D,V,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,692200,pathogenic
+TTR,31,P,L,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",3901847,pathogenic
+TTR,136,Y,S,likely_pathogenic,Likely pathogenic,1,"not provided|Amyloidosis, hereditary systemic 1",181700,pathogenic
+TTR,109,E,G,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",2762712,pathogenic
+AR,581,K,T,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,1298366,pathogenic
+TTR,74,E,A,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",1519705,pathogenic
+APP,716,I,M,likely_pathogenic,Likely pathogenic,1,not provided,1298879,pathogenic
+SOD1,150,I,N,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,1685450,pathogenic
+LMNA,55,E,G,likely_pathogenic,Likely pathogenic,1,Hutchinson-Gilford syndrome,1308669,pathogenic
+LMNA,373,I,F,likely_pathogenic,Likely pathogenic,1,Dilated cardiomyopathy 1A,435770,pathogenic
+AR,914,P,T,likely_pathogenic,Likely pathogenic,1,not provided,421614,pathogenic
+LMNA,388,R,P,likely_pathogenic,Likely pathogenic,1,Muscular dystrophy,435771,pathogenic
+VCP,160,A,T,likely_pathogenic,Likely pathogenic,1,not provided,2438516,pathogenic
+AR,781,M,K,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,915284,pathogenic
+SOD1,115,G,S,likely_pathogenic,Likely pathogenic,1,not provided,932453,pathogenic
+AR,741,S,P,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,2431800,pathogenic
+LMNA,242,A,E,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2776047,pathogenic
+LMNA,446,D,V,likely_pathogenic,Likely pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66805,pathogenic
+LMNA,467,W,R,likely_pathogenic,Likely pathogenic,1,not provided,66821,pathogenic
+TARDBP,378,N,D,likely_pathogenic,Likely pathogenic,1,"Amyotrophic lateral sclerosis type 10;FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED",939152,pathogenic
+LMNA,39,N,H,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,935833,pathogenic
+TTR,44,P,L,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",948928,pathogenic
+LMNA,529,A,P,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2065107,pathogenic
+LMNA,82,E,G,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2089379,pathogenic
+TARDBP,321,A,D,likely_pathogenic,Likely pathogenic,1,"Amyotrophic lateral sclerosis type 10;FRONTOTEMPORAL LOBAR DEGENERATION WITH TDP43 INCLUSIONS, TARDBP-RELATED",938527,pathogenic
+SOD1,23,Q,P,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,2866770,pathogenic
+LMNA,498,W,C,likely_pathogenic,Likely pathogenic,1,not provided|Primary familial dilated cardiomyopathy,66838,pathogenic
+AR,697,S,Y,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,434267,pathogenic
+AR,605,D,H,likely_pathogenic,Likely pathogenic,1,not provided,451908,pathogenic
+LMNA,656,Q,H,likely_pathogenic,Likely pathogenic,1,Hutchinson-Gilford syndrome,3385375,pathogenic
+APP,687,K,Q,likely_pathogenic,Likely pathogenic,1,"Cerebral amyloid angiopathy, APP-related;Alzheimer disease type 1",3382968,pathogenic
+AR,908,L,H,likely_pathogenic,Likely pathogenic,1,not provided,429930,pathogenic
+LMNA,31,E,Q,likely_pathogenic,Likely pathogenic,1,Dilated cardiomyopathy 1A,4279042,pathogenic
+LMNA,371,M,L,likely_pathogenic,Likely pathogenic,1,Congenital muscular dystrophy due to LMNA mutation,4277891,pathogenic
+SOD1,81,H,Y,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,2059610,pathogenic
+LMNA,383,E,D,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,941172,pathogenic
+TTR,86,E,D,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",935886,pathogenic
+LMNA,197,L,P,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,939069,pathogenic
+SOD1,114,I,M,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,2018599,pathogenic
+TTR,84,F,Y,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",2014715,pathogenic
+TTR,117,A,D,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",2057055,pathogenic
+LMNA,89,R,G,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,959029,pathogenic
+SOD1,142,G,V,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,2000951,pathogenic
+LMNA,72,R,P,likely_pathogenic,Likely pathogenic,1,Congenital muscular dystrophy due to LMNA mutation,2882128,pathogenic
+LMNA,48,R,H,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2873499,pathogenic
+AR,752,W,S,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,1177442,pathogenic
+LMNA,78,K,N,likely_pathogenic,Likely pathogenic,1,Arrhythmogenic right ventricular dysplasia 9,444011,pathogenic
+AR,871,A,G,likely_pathogenic,Likely pathogenic,1,Partial androgen insensitivity syndrome,3362262,pathogenic
+VCP,693,R,C,likely_pathogenic,Likely pathogenic,1,not provided,452025,pathogenic
+LMNA,65,E,V,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2003305,pathogenic
+LMNA,456,N,T,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2011460,pathogenic
+HNRNPA1,340,P,A,likely_pathogenic,Likely pathogenic,1,Inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia 3,637023,pathogenic
+VCP,128,G,S,likely_pathogenic,Likely pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6,2028838,pathogenic
+LMNA,243,D,Y,likely_pathogenic,Likely pathogenic,1,Dilated cardiomyopathy 1A,634638,pathogenic
+LMNA,39,N,I,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,649203,pathogenic
+TTR,90,K,E,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",2916831,pathogenic
+LMNA,270,K,N,likely_pathogenic,Likely pathogenic,1,Abnormality of the musculature,636306,pathogenic
+LMNA,482,R,P,likely_pathogenic,Likely pathogenic,1,"Familial partial lipodystrophy, Dunnigan type",3359050,pathogenic
+AR,682,E,D,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease,3759647,pathogenic
+APP,678,D,H,likely_pathogenic,Likely pathogenic,1,not provided,446855,pathogenic
+AR,586,R,K,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease,3759645,pathogenic
+LMNA,28,R,G,likely_pathogenic,Likely pathogenic,1,Inborn genetic diseases,225065,pathogenic
+LMNA,259,Y,C,likely_pathogenic,Likely pathogenic,1,Abnormality of the musculature,1180818,pathogenic
+MAPT,754,H,Y,likely_pathogenic,Likely pathogenic,1,Alzheimer disease,599620,pathogenic
+LMNA,357,D,H,likely_pathogenic,Likely pathogenic,1,not provided|Charcot-Marie-Tooth disease type 2,66769,pathogenic
+LMNA,62,R,L,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,971606,pathogenic
+LMNA,48,R,L,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,655012,pathogenic
+SOD1,120,V,F,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3781334,pathogenic
+VCP,137,P,S,likely_pathogenic,Likely pathogenic,1,Alzheimer disease,599629,pathogenic
+AR,723,L,F,likely_pathogenic,Likely pathogenic,1,Kennedy disease;Androgen resistance syndrome,2925677,pathogenic
+AR,745,L,F,likely_pathogenic,Likely pathogenic,1,Kennedy disease;Androgen resistance syndrome,2925679,pathogenic
+HNRNPA2B1,322,G,E,likely_pathogenic,Likely pathogenic,1,Frontotemporal dementia,1178344,pathogenic
+AR,768,D,Y,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,3336687,pathogenic
+TTR,98,Y,H,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",4722536,pathogenic
+AR,763,L,V,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,3336685,pathogenic
+VCP,98,D,E,likely_pathogenic,Likely pathogenic,1,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1,976025,pathogenic
+SOD1,6,V,M,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,1926438,pathogenic
+LMNA,10,T,P,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,1943785,pathogenic
+MAPT,676,L,H,likely_pathogenic,Likely pathogenic,1,Frontotemporal dementia,3778831,pathogenic
+SOD1,152,I,N,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3778877,pathogenic
+SOD1,65,F,C,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3778879,pathogenic
+SOD1,23,Q,R,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3778880,pathogenic
+SOD1,68,L,P,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3781333,pathogenic
+AR,914,P,S,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,3775706,pathogenic
+LMNA,378,K,Q,likely_pathogenic,Likely pathogenic,1,Dilated cardiomyopathy 1A,3775011,pathogenic
+AR,900,I,F,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease,464801,pathogenic
+AR,905,P,L,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease,3760521,pathogenic
+VCP,261,E,A,likely_pathogenic,Likely pathogenic,1,not provided,3251039,pathogenic
+AR,579,S,T,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease,464791,pathogenic
+AR,764,Y,H,likely_pathogenic,Likely pathogenic,1,not provided,988440,pathogenic
+LMNA,225,R,P,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2413543,pathogenic
+AR,739,Q,R,likely_pathogenic,Likely pathogenic,1,not provided,988439,pathogenic
+SOD1,126,D,A,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,973542,pathogenic
+MAPT,748,S,T,likely_pathogenic,Likely pathogenic,1,not provided,986870,pathogenic
+VCP,95,R,S,likely_pathogenic,Likely pathogenic,1,Frontotemporal dementia and/or amyotrophic lateral sclerosis 6;Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,2954479,pathogenic
+AR,681,I,N,likely_pathogenic,Likely pathogenic,1,not provided,996791,pathogenic
+AR,742,W,S,likely_pathogenic,Likely pathogenic,1,not provided,988510,pathogenic
+AR,804,E,G,likely_pathogenic,Likely pathogenic,1,not provided,988427,pathogenic
+VCP,159,R,S,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 6|not provided,989439,pathogenic
+VCP,395,D,G,likely_pathogenic,Likely pathogenic,1,"FRONTOTEMPORAL DEMENTIA WITHOUT AMYOTROPHIC LATERAL SCLEROSIS 6, WITH NEUROFIBRILLARY TANGLES|not provided",989440,pathogenic
+TTR,90,K,Q,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",2169603,pathogenic
+AR,581,K,N,likely_pathogenic,Likely pathogenic,1,Kennedy disease;Androgen resistance syndrome|Androgen resistance syndrome,2942787,pathogenic
+TTR,64,F,Y,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",4292006,pathogenic
+LMNA,38,L,V,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,1067826,pathogenic
+SOD1,150,I,V,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1|SOD1-related disorder,1061106,pathogenic
+SOD1,132,N,K,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,1064422,pathogenic
+LMNA,462,Q,P,likely_pathogenic,Likely pathogenic,1,"Emery-Dreifuss muscular dystrophy 2, autosomal dominant",488542,pathogenic
+AR,686,V,L,likely_pathogenic,Likely pathogenic,1,Partial androgen insensitivity syndrome,1699192,pathogenic
+MAPT,693,P,A,likely_pathogenic,Likely pathogenic,1,"Supranuclear palsy, progressive, 1",3075676,pathogenic
+AR,612,C,S,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,3255195,pathogenic
+AR,602,C,Y,likely_pathogenic,Likely pathogenic,1,Kennedy disease;Androgen resistance syndrome,458359,pathogenic
+AR,617,L,P,likely_pathogenic,Likely pathogenic,1,Kennedy disease;Androgen resistance syndrome,458360,pathogenic
+HNRNPA1,314,D,N,likely_pathogenic,Likely pathogenic,1,not provided|Amyotrophic lateral sclerosis type 20,65452,pathogenic
+HNRNPA1,314,D,V,likely_pathogenic,Likely pathogenic,1,not provided|Inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia 3,65451,pathogenic
+AR,696,D,V,likely_pathogenic,Likely pathogenic,1,"Androgen resistance syndrome;Kennedy disease|Thyroid cancer, nonmedullary, 1",2138585,pathogenic
+SOD1,113,I,M,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,4292153,pathogenic
+AR,596,C,R,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,4294427,pathogenic
+AR,579,S,R,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,1713192,pathogenic
+AR,692,N,K,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,1698951,pathogenic
+AR,899,I,T,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease,464800,pathogenic
+LMNA,52,L,V,likely_pathogenic,Likely pathogenic,1,Primary dilated cardiomyopathy,48042,pathogenic
+AR,904,V,M,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome;Kennedy disease,2138590,pathogenic
+AR,584,F,V,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,4531344,pathogenic
+SOD1,147,C,R,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,2138382,pathogenic
+SOD1,39,L,Q,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,2138374,pathogenic
+LMNA,290,E,V,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,1025696,pathogenic
+AR,766,A,S,likely_pathogenic,Likely pathogenic,1,Differences in sex development,4281691,pathogenic
+TTR,126,T,N,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",2138147,pathogenic
+PRNP,188,T,R,likely_pathogenic,Likely pathogenic,1,Huntington disease-like 1,2138330,pathogenic
+SOD1,9,L,Q,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,2138373,pathogenic
+AR,685,V,I,likely_pathogenic,Likely pathogenic,1,Kennedy disease;Androgen resistance syndrome,533378,pathogenic
+LMNA,111,E,Q,likely_pathogenic,Likely pathogenic,1,not specified|Dilated cardiomyopathy 1A,48060,pathogenic
+AR,701,L,F,likely_pathogenic,Likely pathogenic,1,Nonpapillary renal cell carcinoma|Kennedy disease;Androgen resistance syndrome,458361,pathogenic
+SOD1,150,I,S,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,3068571,pathogenic
+AR,693,N,K,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,3062325,pathogenic
+LMNA,262,E,K,likely_pathogenic,Likely pathogenic,1,Hutchinson-Gilford syndrome,1698456,pathogenic
+AR,583,F,L,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,1805862,pathogenic
+AR,749,A,V,likely_pathogenic,Likely pathogenic,1,Disorder of sexual differentiation,3767296,pathogenic
+SOD1,134,E,V,likely_pathogenic,Likely pathogenic,1,Amyotrophic lateral sclerosis type 1,2138381,pathogenic
+LMNA,521,G,V,likely_pathogenic,Likely pathogenic,1,not provided,200945,pathogenic
+VCP,96,L,V,likely_pathogenic,Likely pathogenic,1,Progressive muscle weakness,3767890,pathogenic
+AR,900,I,M,likely_pathogenic,Likely pathogenic,1,Differences in sex development,4281683,pathogenic
+TTR,69,T,S,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",538164,pathogenic
+LMNA,380,L,M,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,2974892,pathogenic
+TTR,45,A,S,likely_pathogenic,Likely pathogenic,1,Cardiovascular phenotype,1770339,pathogenic
+AR,618,R,W,likely_pathogenic,Likely pathogenic,1,Male infertility,3061773,pathogenic
+AR,787,R,Q,likely_pathogenic,Likely pathogenic,1,Male infertility,3061775,pathogenic
+AR,625,M,V,likely_pathogenic,Likely pathogenic,1,Androgen resistance syndrome,3062281,pathogenic
+TTR,78,L,V,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",1799566,pathogenic
+TTR,95,T,A,likely_pathogenic,Likely pathogenic,1,not provided,4542259,pathogenic
+LMNA,347,E,A,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,1063701,pathogenic
+LMNA,204,L,R,likely_pathogenic,Likely pathogenic,1,Dilated cardiomyopathy 1A,520416,pathogenic
+TTR,81,E,K,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",13447,pathogenic
+TTR,127,I,T,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1",4751063,pathogenic
+TTR,131,L,M,likely_pathogenic,Likely pathogenic,1,"Amyloidosis, hereditary systemic 1|Cardiovascular phenotype",13424,pathogenic
+HNRNPA2B1,298,P,L,likely_pathogenic,Likely pathogenic,1,Inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia 2,1501742,pathogenic
+LMNA,331,R,G,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,3689505,pathogenic
+SOD1,146,A,D,likely_pathogenic,Likely pathogenic,1,Motor neuron disease,266063,pathogenic
+LMNA,198,Q,P,likely_pathogenic,Likely pathogenic,1,Charcot-Marie-Tooth disease type 2,1472188,pathogenic
+PRNP,129,M,V,likely_benign,Benign/Likely benign,2,|||Inherited prion disease|not specified|Huntington disease-like 1|Inherited Creutzfeldt-Jakob disease|not provided|6 conditions|Autism spectrum disorder|Fatal familial insomnia,13397,benign
+TIA1,318,Q,R,likely_benign,Benign/Likely benign,2,not specified|Welander distal myopathy|not provided,261569,benign
+SQSTM1,274,E,D,likely_benign,Benign/Likely benign,2,"not specified|Paget disease of bone 3|Paget disease of bone 2, early-onset;Frontotemporal dementia and/or amyotrophic lateral sclerosis 1|Paget disease of bone 2, early-onset|not provided",259188,benign
+VCP,27,I,V,likely_benign,Benign/Likely benign,2,not specified|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia;Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Frontotemporal dementia and/or amyotrophic lateral sclerosis 6|Inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1|Intellectual disability|not provided|Inborn genetic diseases|VCP-related disorder,284302,benign
+APP,614,S,G,likely_benign,Benign/Likely benign,2,"Alzheimer disease|not specified|Alzheimer disease type 1;Cerebral amyloid angiopathy, APP-related",339631,benign
+PRNP,54,G,S,likely_benign,Benign/Likely benign,2,Inherited prion disease|Huntington disease-like 1|not provided,338646,benign
+SQSTM1,321,R,C,likely_benign,Benign/Likely benign,2,"Paget disease of bone 3|not provided|Paget disease of bone 2, early-onset;Frontotemporal dementia and/or amyotrophic lateral sclerosis 1|SQSTM1-related disorder|not specified",259193,benign
+FUS,135,S,N,likely_benign,Benign/Likely benign,2,"not specified|Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4|Amyotrophic lateral sclerosis type 6|FUS-related disorder|not provided",447357,benign
+TIA1,316,A,G,likely_benign,Benign/Likely benign,2,Welander distal myopathy|not provided|not specified,458843,benign
+MAPT,502,S,F,likely_benign,Benign/Likely benign,2,not provided|Frontotemporal dementia|not specified,460294,benign
+PRNP,142,G,S,likely_benign,Benign/Likely benign,2,Inherited prion disease|Huntington disease-like 1|not provided,338652,benign
+SQSTM1,238,K,E,likely_benign,Benign/Likely benign,2,"Frontotemporal dementia and/or amyotrophic lateral sclerosis 1;Paget disease of bone 2, early-onset|Paget disease of bone 3|not provided|not specified",475403,benign
+APP,599,E,K,likely_benign,Benign/Likely benign,2,not provided|Vascular dementia|Alzheimer disease|APP-related disorder|not specified,585430,benign
+MAPT,17,T,M,likely_benign,Benign/Likely benign,2,not provided|Frontotemporal dementia|not specified,704535,benign
+TAF15,52,G,S,likely_benign,Likely benign,2,not provided|TAF15-related disorder,681581,benign
+HTT,696,G,E,likely_benign,Likely benign,2,not provided,1568606,benign
+APP,76,V,I,likely_benign,Benign/Likely benign,2,not specified|Alzheimer disease,705909,benign
+MAPT,288,G,R,likely_benign,Benign/Likely benign,2,Frontotemporal dementia|not provided,529747,benign
+MAPT,299,V,G,likely_benign,Benign/Likely benign,2,not provided|Frontotemporal dementia,623931,benign
+SNCA,96,K,R,likely_benign,Benign/Likely benign,2,"Parkinson Disease, Dominant|Lewy body dementia;Autosomal dominant Parkinson disease 1|SNCA-related disorder|not provided",704527,benign
+MAPT,543,I,T,likely_benign,Likely benign,2,Frontotemporal dementia|MAPT-related disorder|not specified|not provided,529748,benign
+HTT,1708,C,R,likely_benign,Likely benign,2,not provided,1567068,benign
+HTT,625,Q,R,likely_benign,Benign/Likely benign,2,not provided,1530425,benign
+AR,176,S,R,likely_benign,Benign/Likely benign,2,"Androgen resistance syndrome|Hypospadias 1, X-linked;Androgen resistance syndrome;Kennedy disease;Prostate cancer;Partial androgen insensitivity syndrome|not provided|Androgen resistance syndrome;Kennedy disease|AR-related disorder",804018,benign
+FUS,16,A,V,likely_benign,Likely benign,2,"Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4|Inborn genetic diseases|FUS-related disorder",1530335,benign
+HTT,2395,I,F,likely_benign,Likely benign,2,not provided,1586256,benign
+HNRNPA2B1,204,G,S,likely_benign,Likely benign,2,Inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia 2|HNRNPA2B1-related disorder|not provided,704292,benign
+FUS,40,G,A,likely_benign,Likely benign,2,"Inborn genetic diseases|Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4|FUS-related disorder",1746926,benign
+SQSTM1,117,A,V,likely_benign,Benign/Likely benign,2,"not specified|Paget disease of bone 2, early-onset;Frontotemporal dementia and/or amyotrophic lateral sclerosis 1|Paget disease of bone 3|not provided",202212,benign
+TTR,146,K,R,likely_benign,Benign/Likely benign,2,"Cardiovascular phenotype|not provided|Amyloidosis, hereditary systemic 1",181706,benign
+HTT,2444,E,D,likely_benign,Likely benign,2,not provided|not specified,1617281,benign
+SQSTM1,144,V,I,likely_benign,Benign/Likely benign,2,"not specified|Frontotemporal dementia and/or amyotrophic lateral sclerosis 1;Paget disease of bone 2, early-onset",1256117,benign
+AR,57,L,Q,likely_benign,Benign/Likely benign,2,not provided|Androgen resistance syndrome;Kennedy disease|Ovarian cancer|not specified|AR-related disorder,1049223,benign
+MAPT,692,V,I,likely_benign,Benign/Likely benign,2,"not provided|Frontotemporal dementia|Parkinson disease, late-onset;Progressive supranuclear palsy-parkinsonism syndrome;Pick disease;Frontotemporal dementia;Supranuclear palsy, progressive, 1",1271108,benign
+MAPT,305,Q,R,likely_benign,Benign/Likely benign,2,"not provided|not specified|Frontotemporal dementia|Parkinson disease, late-onset;Progressive supranuclear palsy-parkinsonism syndrome;Pick disease;Frontotemporal dementia;Supranuclear palsy, progressive, 1",98197,benign
+TAF15,455,Y,C,likely_benign,Likely benign,2,not provided|TAF15-related disorder,1215694,benign
+TTR,26,G,S,likely_benign,Benign/Likely benign,2,"not specified|Cardiovascular phenotype|Amyloidosis, hereditary systemic 1|Charcot-Marie-Tooth disease|not provided|Hypertrophic cardiomyopathy|Amyloidosis, hereditary systemic 1;Hyperthyroxinemia, dystransthyretinemic;Carpal tunnel syndrome 1|TTR POLYMORPHISM",13452,benign
+CRYAB,124,I,V,likely_benign,Likely benign,1,not specified,227275,benign
+AR,216,G,R,likely_benign,Likely benign,1,Androgen resistance syndrome;Kennedy disease,2933437,benign
+FUS,186,S,I,likely_benign,Likely benign,1,Inborn genetic diseases,4260629,benign
+AR,17,K,N,likely_benign,Likely benign,1,Kennedy disease;Androgen resistance syndrome,2923962,benign
+AR,305,D,G,likely_benign,Likely benign,1,Androgen resistance syndrome;Kennedy disease,2937754,benign
+AR,40,R,K,likely_benign,Likely benign,1,Androgen resistance syndrome;Kennedy disease,2946522,benign
+AR,141,A,T,likely_benign,Likely benign,1,not specified,434258,benign
+HTT,994,T,I,likely_benign,Likely benign,1,not provided,1606873,benign
+PRNP,234,L,F,likely_benign,Likely benign,1,Huntington disease-like 1,705684,benign
+SQSTM1,36,E,K,likely_benign,Likely benign,1,"Frontotemporal dementia and/or amyotrophic lateral sclerosis 1;Paget disease of bone 2, early-onset",571912,benign
+MAPT,281,A,S,likely_benign,Likely benign,1,Frontotemporal dementia,578075,benign
+AR,473,G,D,likely_benign,Likely benign,1,not specified,508833,benign
+HNRNPA2B1,273,G,S,likely_benign,Likely benign,1,Inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia 2,2849286,benign
+APP,102,R,H,likely_benign,Likely benign,1,Alzheimer disease,2742324,benign
+HTT,86,H,P,likely_benign,Likely benign,1,not provided,2654594,benign
+AR,198,Q,L,likely_benign,Likely benign,1,Androgen resistance syndrome;Kennedy disease,2946611,benign
+AR,346,S,P,likely_benign,Likely benign,1,Androgen resistance syndrome;Kennedy disease,2937734,benign
+HTT,1360,M,I,likely_benign,Likely benign,1,HTT-related disorder,3040819,benign
+HTT,1306,M,I,likely_benign,Likely benign,1,not provided,3025275,benign
+SNCA,117,P,S,likely_benign,Likely benign,1,Lewy body dementia;Autosomal dominant Parkinson disease 1,2038359,benign
+FUS,54,S,N,likely_benign,Likely benign,1,Inborn genetic diseases,2455818,benign
+APP,354,Q,R,likely_benign,Likely benign,1,Inborn genetic diseases,2478421,benign
+SNCA,127,M,I,likely_benign,Likely benign,1,Lewy body dementia;Autosomal dominant Parkinson disease 1,2923907,benign
+MAPT,253,T,S,likely_benign,Likely benign,1,not provided,749006,benign
+MAPT,413,R,Q,likely_benign,Likely benign,1,not provided,731963,benign
+MAPT,325,A,T,likely_benign,Likely benign,1,Frontotemporal dementia,722755,benign
+MAPT,388,K,N,likely_benign,Likely benign,1,not provided,736385,benign
+MAPT,372,A,G,likely_benign,Likely benign,1,not provided,734640,benign
+APP,597,L,W,likely_benign,Likely benign,1,Alzheimer disease,1421584,benign
+HTT,1872,Q,H,likely_benign,Likely benign,1,not provided,1375604,benign
+TAF15,122,Y,C,likely_benign,Likely benign,1,not provided|TAF15-related disorder,730618,benign
+MAPT,257,R,C,likely_benign,Likely benign,1,not provided,786803,benign
+TARDBP,50,C,S,likely_benign,Likely benign,1,Inborn genetic diseases,1773959,benign
+HNRNPA1,211,G,S,likely_benign,Likely benign,1,not provided,706889,benign
+MAPT,443,V,I,likely_benign,Likely benign,1,not provided,756463,benign
+MAPT,473,R,C,likely_benign,Likely benign,1,Frontotemporal dementia,764223,benign
+MAPT,297,R,C,likely_benign,Likely benign,1,not provided,760616,benign
+HTT,1555,T,I,likely_benign,Likely benign,1,not provided,1586935,benign
+FUS,217,G,S,likely_benign,Likely benign,1,Inborn genetic diseases,1753877,benign
+APP,342,G,S,likely_benign,Likely benign,1,Alzheimer disease,798148,benign
+HTT,231,A,V,likely_benign,Likely benign,1,not provided,1549939,benign
+HTT,1668,T,N,likely_benign,Likely benign,1,not provided,1532195,benign
+APP,617,D,N,likely_benign,Likely benign,1,Alzheimer disease,1377814,benign
+APP,468,R,C,likely_benign,Likely benign,1,Alzheimer disease,1413498,benign
+APP,322,G,S,likely_benign,Likely benign,1,Alzheimer disease,1414989,benign
+APP,7,L,V,likely_benign,Likely benign,1,Alzheimer disease,1357645,benign
+HTT,787,V,M,likely_benign,Likely benign,1,not provided,1386427,benign
+AR,45,A,G,likely_benign,Likely benign,1,Androgen resistance syndrome;Kennedy disease,733466,benign
+APP,15,A,V,likely_benign,Likely benign,1,Alzheimer disease,1102353,benign
+APP,101,G,D,likely_benign,Likely benign,1,Alzheimer disease,1005334,benign
+FUS,18,P,T,likely_benign,Likely benign,1,"Amyotrophic lateral sclerosis type 6;Tremor, hereditary essential, 4",1113414,benign
+EWSR1,137,T,A,likely_benign,Likely benign,1,not specified,4665707,benign
+MAPT,155,R,H,likely_benign,Likely benign,1,not provided,1209432,benign
+TIA1,231,R,S,likely_benign,Likely benign,1,Welander distal myopathy,1080721,benign
+MAPT,143,A,S,likely_benign,Likely benign,1,not provided,1200135,benign
+EWSR1,371,S,N,likely_benign,Likely benign,1,not specified,3276728,benign
+DDX4,519,V,I,likely_benign,Likely benign,1,not specified,3271311,benign
+DDX4,680,I,V,likely_benign,Likely benign,1,not specified,3271312,benign
+HTT,229,A,V,likely_benign,Likely benign,1,HTT-related disorder,3048422,benign
+CRYAB,152,V,A,likely_benign,Likely benign,1,Cardiovascular phenotype,3497346,benign
+CRYAB,132,T,A,likely_benign,Likely benign,1,Cardiovascular phenotype,3497347,benign
+TAF15,453,G,S,likely_benign,Likely benign,1,TAF15-related disorder|not provided,3350928,benign
+TAF15,438,S,G,likely_benign,Likely benign,1,not specified,3324207,benign
+AR,507,G,S,likely_benign,Likely benign,1,Androgen resistance syndrome;Kennedy disease,3755432,benign
+APP,248,D,G,likely_benign,Likely benign,1,Alzheimer disease,3704146,benign
+APP,559,Q,H,likely_benign,Likely benign,1,Alzheimer disease,3667989,benign
+APP,328,R,Q,likely_benign,Likely benign,1,Alzheimer disease,3619940,benign
+DDX4,192,T,A,likely_benign,Likely benign,1,not specified,3838903,benign
+MAPT,277,P,L,benign,Benign,2,not provided|not specified|Frontotemporal dementia,98244,benign
+MAPT,570,A,T,benign,Benign,2,not provided|not specified|MAPT-Related Spectrum Disorders|Frontotemporal dementia,98205,benign
+ATXN3,295,K,Q,benign,Benign,2,not specified|not provided|ATXN3-related disorder,128513,benign
+MAPT,360,D,N,benign,Benign,2,not provided|not specified|Frontotemporal dementia,98198,benign
+PRNP,219,E,K,benign,Benign,2,Inherited prion disease|Huntington disease-like 1|not provided|Reclassified - variant of unknown significance|not specified,13409,benign
+MAPT,522,S,P,benign,Benign,2,not provided|not specified|Frontotemporal dementia,98203,benign
+MAPT,516,Y,H,benign,Benign,2,not provided|not specified|Frontotemporal dementia,98202,benign
+MAPT,364,V,A,benign,Benign,2,not provided|not specified|Frontotemporal dementia,98200,benign
+AR,654,E,K,benign,Benign,2,not specified|Androgen resistance syndrome;Kennedy disease|not provided,1686481,benign
+AR,548,L,F,benign,Benign,2,"Kennedy disease;Androgen resistance syndrome|Prostate cancer, hereditary, X-linked 3",1685538,benign
+HTT,1091,I,M,benign,Benign,2,not provided,1651223,benign
+HTT,893,G,R,benign,Benign,2,not provided,1615277,benign
+TAF15,542,G,S,benign,Benign,2,not provided|TAF15-related disorder|not specified,720756,benign
+MAPT,183,E,K,benign,Benign,2,not provided,1295309,benign
+HTT,1720,T,N,benign,Benign,2,"not provided|Uveal melanoma|Malignant lymphoma, large B-cell, diffuse|Colorectal cancer|Cholangiocarcinoma|Adrenocortical carcinoma, hereditary",1538968,benign
+TAF15,388,R,H,benign,Benign,2,not provided|TAF15-related disorder|not specified,1231980,benign
+HTT,1173,T,A,benign,Benign,2,"not provided|Lung cancer|Uterine corpus endometrial carcinoma|Clear cell carcinoma of kidney|Sarcoma|Thyroid cancer, nonmedullary, 1|Hepatocellular carcinoma",1662784,benign
+DDX4,472,K,E,benign,Benign,2,not provided,774446,benign
+APP,276,T,S,benign,Benign,2,Alzheimer disease|not provided|not specified,704999,benign
+HTT,1385,N,H,benign,Benign,2,not provided,1634449,benign
+HTT,551,G,E,benign,Benign,2,not provided,1600152,benign
+HTT,2309,Y,H,benign,Benign,2,not provided,1559386,benign
+HTT,2786,V,I,benign,Benign,2,not provided,1531045,benign
+HTT,1064,V,I,benign,Benign,2,not provided,1569339,benign
+PRNP,171,N,S,benign,Benign,2,Spongiform encephalopathy with neuropsychiatric features|Inherited prion disease|Huntington disease-like 1|not provided|not specified,13408,benign
+HTT,1260,T,M,benign,Benign,2,Lopes-Maciel-Rodan syndrome|not provided|not specified,417743,benign
+SQSTM1,319,E,K,benign,Benign,2,"Paget disease of bone 3|Frontotemporal dementia and/or amyotrophic lateral sclerosis 1;Paget disease of bone 2, early-onset|not specified|not provided",353165,benign
+MAPT,445,R,W,benign,Benign,2,not specified|Frontotemporal dementia|not provided,257502,benign
+MAPT,393,S,L,benign,Benign,2,not specified|Frontotemporal dementia|not provided,257505,benign
+HTT,2645,D,E,benign,Benign,2,not provided,2041355,benign
+AR,495,S,N,benign,Benign,2,Ovarian cancer|Kennedy disease;Androgen resistance syndrome,2445303,benign
+AR,415,H,Y,benign,Benign,1,Kennedy disease;Androgen resistance syndrome,1988214,benign
+LMNA,191,V,G,benign,Benign,1,Cardiomyopathy,916767,benign
+APP,673,A,T,benign,Benign,1,"Alzheimer disease, protection against|not provided|Alzheimer disease",37145,benign
+HTT,38,Q,P,benign,Benign,1,not specified,3910363,benign
+ATXN3,306,G,R,benign,Benign,1,not specified|Azorean disease|ATXN3-related disorder|not provided,128515,benign
+HTT,39,Q,P,benign,Benign,1,not specified,3910364,benign
+ATXN3,212,V,M,benign,Benign,1,"not specified|not provided|Malignant lymphoma, large B-cell, diffuse|Squamous cell carcinoma of the head and neck",128511,benign
+MAPT,215,P,S,benign,Benign,1,Frontotemporal dementia|MAPT-related disorder,706054,benign
+AR,58,Q,R,benign,Benign,1,Ovarian cancer|Neoplasm,2445241,benign
+AR,299,A,V,benign,Benign,1,Ovarian cancer,2445238,benign
+AR,529,D,Y,benign,Benign,1,Ovarian cancer,2445414,benign
+AR,253,A,V,benign,Benign,1,Ovarian cancer,2445408,benign
+AR,97,P,S,benign,Benign,1,Ovarian cancer,2445345,benign
+APP,194,D,G,benign,Benign,1,Alzheimer disease,2769977,benign
+AR,101,R,H,benign,Benign,1,Androgen resistance syndrome;Kennedy disease,2930876,benign
+APP,297,T,M,benign,Benign,1,Alzheimer disease,789927,benign
+AR,209,G,E,benign,Benign,1,Ovarian cancer,2445305,benign
+AR,329,G,V,benign,Benign,1,Androgen resistance syndrome;Kennedy disease,2937134,benign
+AR,207,S,R,benign,Benign,1,Androgen resistance syndrome;Kennedy disease,2946057,benign
+AR,559,T,S,benign,Benign,1,Androgen resistance syndrome;Kennedy disease,2937987,benign
+AR,386,R,H,benign,Benign,1,Androgen resistance syndrome;Kennedy disease,2947102,benign
+AR,727,R,C,benign,Benign,1,Androgen resistance syndrome;Kennedy disease,2935910,benign
+AR,354,D,E,benign,Benign,1,Kennedy disease;Androgen resistance syndrome,2921760,benign

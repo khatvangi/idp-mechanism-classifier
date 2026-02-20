@@ -1,0 +1,12 @@
+# large data downloads (re-downloadable)
+data/variant_summary.txt.gz
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,53 @@
+# reduced feature set after greedy redundancy removal (|rho|>0.8)
+# computed on 16 WT proteins
+
+# all reduced (interpretable + ESM2 PCA):
+ncpr
+fcr
+kappa
+scd
+aromatic_frac
+glycine_frac
+proline_frac
+qn_frac
+serine_frac
+aromatic_clustering
+mean_beta_propensity
+full_mean_p_lock
+full_mean_p_polar
+lcd_lockability_per_pair
+max_apr_score
+larks_count
+emb_norm
+esm2_pc1
+esm2_pc2
+esm2_pc3
+esm2_pc4
+esm2_pc5
+esm2_pc6
+esm2_pc7
+esm2_pc8
+esm2_pc9
+esm2_pc10
+
+# interpretable reduced (no ESM2):
+ncpr
+fcr
+kappa
+scd
+aromatic_frac
+glycine_frac
+proline_frac
+qn_frac
+serine_frac
+arg_frac
+aromatic_clustering
+mean_beta_propensity
+full_mean_p_lock
+full_mean_p_polar
+lcd_lockability_per_pair
+max_apr_score
+mean_amyloid_propensity
+larks_count
+mean_llr
+emb_norm
