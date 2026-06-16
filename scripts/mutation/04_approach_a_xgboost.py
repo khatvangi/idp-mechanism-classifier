@@ -3,6 +3,15 @@
 approach A: XGBoost classifier on handcrafted IDP features.
 uses leave-one-gene-out cross-validation (LOGO-CV).
 binary classification: pathogenic vs benign (VUS treated as noisy-benign).
+
+⚠ KNOWN ISSUE: zero-initialized prediction arrays (line ~84). genes skipped by
+LOGO-CV (< 5 samples or single-class) leave default 0.0 predictions and 0.0
+labels that still enter the overall AUROC calculation (line ~241). this biases
+the reported metrics.
+
+⚠ SUPERSEDED: this exploratory script is not used in the paper. the paper's
+primary claims use raw ESM2 LLR (no ML) and the two-step predictor (script 10)
+which has correct extend-based LOGO-CV accumulation.
 """
 
 from pathlib import Path

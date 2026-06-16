@@ -28,10 +28,20 @@ from sklearn.preprocessing import StandardScaler
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ""  # no GPU needed
 
+# minimum benign variant count for a gene to be considered adequately powered
+# for per-gene AUROC reporting. genes below this threshold get a power_flag
+# and are reported in supplementary only, not main text.
+MIN_BENIGN_FOR_POWER = 5
+
 PROJECT = Path(__file__).resolve().parent.parent.parent
 DATA = PROJECT / "data"
 VARIANTS = DATA / "variants"
 FIGURES = PROJECT / "figures"
+
+EVAL_SETS = {
+    "clean": {"allowed_labels": {"pathogenic", "benign"}},
+    "full_vus": {"allowed_labels": {"pathogenic", "benign", "vus"}},
+}
 
 # ── functional region annotations ─────────────────────────────────────────────
 # format: {gene: {"region_name": (start, end), ...}}
@@ -224,6 +234,19 @@ def annotate_regions(df):
     return df
 
 
+def load_eval_dataset(eval_name):
+    """Load one named evaluation dataset."""
+    if eval_name not in EVAL_SETS:
+        raise ValueError(f"unknown eval set: {eval_name}")
+
+    df = pd.read_csv(VARIANTS / "esm2_features.csv")
+    df = df[df["gene"] != "HTT"].copy()
+    df = df[df["label"].isin(EVAL_SETS[eval_name]["allowed_labels"])].copy()
+    df["target"] = (df["label"] == "pathogenic").astype(int)
+    df["mechanism"] = df["gene"].apply(get_mechanism)
+    return annotate_regions(df)
+
+
 def logo_cv_two_step(df, method="membership_only"):
     """leave-one-gene-out CV for two-step predictor.
 
@@ -297,42 +320,6 @@ def logo_cv_two_step(df, method="membership_only"):
 
 # ── main ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    # load data (esm2_features has all features + esm2 columns + target)
-    print("loading data...")
-    df = pd.read_csv(VARIANTS / "esm2_features.csv")
-
-    # exclude HTT — 170/259 variants have fabricated ESM2 features
-    n_before = len(df)
-    df = df[df["gene"] != "HTT"].copy()
-    print(f"  excluded HTT: {n_before} → {len(df)} variants")
-
-    # add mechanism labels
-    df["mechanism"] = df["gene"].apply(get_mechanism)
-
-    # annotate functional regions
-    print("annotating functional regions...")
-    df = annotate_regions(df)
-
-    # summary
-    print(f"\n  total variants: {len(df)}")
-    print(f"  pathogenic: {(df['target'] == 1).sum()}")
-    print(f"  in critical region: {df['in_critical_region'].sum()} "
-          f"({df['in_critical_region'].mean():.1%})")
-
-    # per-mechanism summary
-    print("\n  per-mechanism critical region coverage:")
-    for mech in ["gof_nonamyloid", "gof_amyloid", "lof_structured", "repeat", "condensate"]:
-        mdf = df[df["mechanism"] == mech]
-        if len(mdf) == 0:
-            continue
-        n_crit = mdf["in_critical_region"].sum()
-        n_path_crit = ((mdf["target"] == 1) & (mdf["in_critical_region"] == 1)).sum()
-        n_path_total = (mdf["target"] == 1).sum()
-        print(f"    {mech:<20} n={len(mdf):>4}  in_critical={n_crit:>4}  "
-              f"path_in_critical={n_path_crit:>3}/{n_path_total:>3} "
-              f"({n_path_crit/max(n_path_total,1):.0%})")
-
-    # ── run LOGO-CV for each method ───────────────────────────────────────────
     methods = [
         "esm2_only",
         "membership_only",
@@ -340,90 +327,137 @@ if __name__ == "__main__":
         "membership_plus_llr_plus_features",
     ]
 
-    results = {}
-    print(f"\n{'='*70}")
-    print("LOGO-CV results (excluding HTT)")
-    print(f"{'='*70}")
+    all_summary = []
+    all_mechanism_rows = []
+    all_gene_rows = []
+    figure_payload = None
+    annotated_eval_sets = {}
 
-    for method in methods:
-        y_true, y_pred, genes_out = logo_cv_two_step(df, method)
-        auroc = roc_auc_score(y_true, y_pred)
-        prec, rec, _ = precision_recall_curve(y_true, y_pred)
-        auprc = auc(rec, prec)
-        results[method] = {"auroc": auroc, "auprc": auprc,
-                           "y_true": y_true, "y_pred": y_pred,
-                           "genes": genes_out}
-        print(f"  {method:<40} AUROC={auroc:.4f}  AUPRC={auprc:.4f}")
+    for eval_name in ["clean", "full_vus"]:
+        print(f"\nloading data for {eval_name}...")
+        df = load_eval_dataset(eval_name)
+        annotated_eval_sets[eval_name] = df.copy()
 
-    # ── per-mechanism breakdown ───────────────────────────────────────────────
-    print(f"\n--- per-mechanism AUROC ---")
-    for method in methods:
-        y_true = results[method]["y_true"]
-        y_pred = results[method]["y_pred"]
-        genes_out = results[method]["genes"]
+        print(f"  total variants: {len(df)}")
+        print(f"  pathogenic: {(df['target'] == 1).sum()}")
+        print(f"  benign: {(df['label'] == 'benign').sum()}")
+        print(f"  vus: {(df['label'] == 'vus').sum()}")
+        print(f"  in critical region: {df['in_critical_region'].sum()} "
+              f"({df['in_critical_region'].mean():.1%})")
 
-        print(f"\n  {method}:")
+        print("\n  per-mechanism critical region coverage:")
         for mech in ["gof_nonamyloid", "gof_amyloid", "lof_structured", "repeat", "condensate"]:
-            mech_genes = set()
-            if mech == "gof_nonamyloid":
-                mech_genes = GOF_NONAMYLOID
-            elif mech == "gof_amyloid":
-                mech_genes = GOF_AMYLOID
-            elif mech == "lof_structured":
-                mech_genes = LOF_STRUCTURED
-            elif mech == "repeat":
-                mech_genes = REPEAT
-            elif mech == "condensate":
-                mech_genes = CONDENSATE
-
-            mask = np.array([g in mech_genes for g in genes_out])
-            if mask.sum() == 0:
+            mdf = df[df["mechanism"] == mech]
+            if len(mdf) == 0:
                 continue
-            ym = y_true[mask]
-            pm = y_pred[mask]
-            if ym.sum() > 0 and (1 - ym).sum() > 0:
-                a = roc_auc_score(ym, pm)
-                print(f"    {mech:<20} AUROC={a:.4f} (n={mask.sum()}, P={int(ym.sum())})")
-            else:
-                print(f"    {mech:<20} n/a (n={mask.sum()}, P={int(ym.sum())})")
+            n_crit = mdf["in_critical_region"].sum()
+            n_path_crit = ((mdf["target"] == 1) & (mdf["in_critical_region"] == 1)).sum()
+            n_path_total = (mdf["target"] == 1).sum()
+            print(f"    {mech:<20} n={len(mdf):>4}  in_critical={n_crit:>4}  "
+                  f"path_in_critical={n_path_crit:>3}/{n_path_total:>3} "
+                  f"({n_path_crit/max(n_path_total,1):.0%})")
 
-    # ── per-gene breakdown for GoF non-amyloid ────────────────────────────────
-    print(f"\n--- GoF non-amyloid per-gene AUROC ---")
-    for method in methods:
-        y_true = results[method]["y_true"]
-        y_pred = results[method]["y_pred"]
-        genes_out = results[method]["genes"]
-        print(f"\n  {method}:")
-        for gene in sorted(GOF_NONAMYLOID):
-            mask = np.array([g == gene for g in genes_out])
-            if mask.sum() == 0:
-                continue
-            ym = y_true[mask]
-            pm = y_pred[mask]
-            if ym.sum() > 0 and (1 - ym).sum() > 0:
-                a = roc_auc_score(ym, pm)
-                print(f"    {gene:<12} AUROC={a:.4f} (n={mask.sum()}, P={int(ym.sum())})")
-            else:
-                print(f"    {gene:<12} n/a (n={mask.sum()}, P={int(ym.sum())})")
+        results = {}
+        print(f"\n{'='*70}")
+        print(f"LOGO-CV results ({eval_name}, excluding HTT)")
+        print(f"{'='*70}")
 
-    # ── per-gene breakdown for LoF (check no harm) ────────────────────────────
-    print(f"\n--- LoF structured per-gene AUROC (check: no degradation) ---")
-    for method in ["esm2_only", "membership_plus_llr"]:
-        y_true = results[method]["y_true"]
-        y_pred = results[method]["y_pred"]
-        genes_out = results[method]["genes"]
-        print(f"\n  {method}:")
-        for gene in sorted(LOF_STRUCTURED):
-            mask = np.array([g == gene for g in genes_out])
-            if mask.sum() == 0:
-                continue
-            ym = y_true[mask]
-            pm = y_pred[mask]
-            if ym.sum() > 0 and (1 - ym).sum() > 0:
-                a = roc_auc_score(ym, pm)
-                print(f"    {gene:<12} AUROC={a:.4f} (n={mask.sum()}, P={int(ym.sum())})")
+        for method in methods:
+            y_true, y_pred, genes_out = logo_cv_two_step(df, method)
+            auroc = roc_auc_score(y_true, y_pred)
+            prec, rec, _ = precision_recall_curve(y_true, y_pred)
+            auprc = auc(rec, prec)
+            results[method] = {"auroc": auroc, "auprc": auprc,
+                               "y_true": y_true, "y_pred": y_pred,
+                               "genes": genes_out}
+            all_summary.append({
+                "evaluation_set": eval_name,
+                "method": method,
+                "auroc": auroc,
+                "auprc": auprc,
+            })
+            print(f"  {method:<40} AUROC={auroc:.4f}  AUPRC={auprc:.4f}")
 
-    # ── figure: ROC comparison ────────────────────────────────────────────────
+        print(f"\n--- per-mechanism AUROC ({eval_name}) ---")
+        for method in methods:
+            y_true = results[method]["y_true"]
+            y_pred = results[method]["y_pred"]
+            genes_out = results[method]["genes"]
+
+            print(f"\n  {method}:")
+            for mech in ["gof_nonamyloid", "gof_amyloid", "lof_structured", "repeat", "condensate"]:
+                mech_genes = {
+                    "gof_nonamyloid": GOF_NONAMYLOID,
+                    "gof_amyloid": GOF_AMYLOID,
+                    "lof_structured": LOF_STRUCTURED,
+                    "repeat": REPEAT,
+                    "condensate": CONDENSATE,
+                }[mech]
+                mask = np.array([g in mech_genes for g in genes_out])
+                if mask.sum() == 0:
+                    continue
+                ym = y_true[mask]
+                pm = y_pred[mask]
+                if ym.sum() > 0 and (1 - ym).sum() > 0:
+                    a = roc_auc_score(ym, pm)
+                    print(f"    {mech:<20} AUROC={a:.4f} (n={mask.sum()}, P={int(ym.sum())})")
+                    all_mechanism_rows.append({
+                        "evaluation_set": eval_name,
+                        "method": method,
+                        "mechanism": mech,
+                        "n": int(mask.sum()),
+                        "n_pathogenic": int(ym.sum()),
+                        "auroc": a,
+                    })
+                else:
+                    print(f"    {mech:<20} n/a (n={mask.sum()}, P={int(ym.sum())})")
+
+        print(f"\n--- per-gene AUROC ({eval_name}) ---")
+        for method in methods:
+            y_true = results[method]["y_true"]
+            y_pred = results[method]["y_pred"]
+            genes_out = results[method]["genes"]
+            print(f"\n  {method}:")
+            n_underpowered = 0
+            for gene in sorted(set(genes_out)):
+                mask = np.array([g == gene for g in genes_out])
+                if mask.sum() == 0:
+                    continue
+                ym = y_true[mask]
+                pm = y_pred[mask]
+                # count benign variants for power assessment
+                n_benign = int((1 - ym).sum())
+                n_path = int(ym.sum())
+                adequately_powered = n_benign >= MIN_BENIGN_FOR_POWER and n_path >= 1
+                power_flag = "powered" if adequately_powered else "underpowered"
+                if not adequately_powered:
+                    n_underpowered += 1
+                if ym.sum() > 0 and (1 - ym).sum() > 0:
+                    a = roc_auc_score(ym, pm)
+                    marker = "" if adequately_powered else " [UNDERPOWERED]"
+                    print(f"    {gene:<12} AUROC={a:.4f} (n={mask.sum()}, P={n_path}, B={n_benign}){marker}")
+                    all_gene_rows.append({
+                        "evaluation_set": eval_name,
+                        "method": method,
+                        "gene": gene,
+                        "n": int(mask.sum()),
+                        "n_pathogenic": n_path,
+                        "n_benign": n_benign,
+                        "auroc": a,
+                        "power_flag": power_flag,
+                    })
+                else:
+                    print(f"    {gene:<12} n/a (n={mask.sum()}, P={n_path}, B={n_benign}) [UNDERPOWERED]")
+            if n_underpowered > 0:
+                print(f"    ({n_underpowered} genes underpowered: <{MIN_BENIGN_FOR_POWER} benign variants)")
+
+        if eval_name == "clean":
+            figure_payload = (df, results)
+
+    if figure_payload is None:
+        raise RuntimeError("clean evaluation results were not generated")
+
+    df, results = figure_payload
     print("\ngenerating figure...")
     fig, axes = plt.subplots(1, 3, figsize=(15, 5))
 
@@ -522,18 +556,21 @@ if __name__ == "__main__":
     print(f"  saved {FIGURES / 'two_step_predictor.png'}")
 
     # ── save results ──────────────────────────────────────────────────────────
-    summary = []
-    for method in methods:
-        summary.append({
-            "method": method,
-            "auroc": results[method]["auroc"],
-            "auprc": results[method]["auprc"],
-        })
-    pd.DataFrame(summary).to_csv(VARIANTS / "results_two_step.csv", index=False)
+    pd.DataFrame(all_summary).to_csv(VARIANTS / "results_two_step.csv", index=False)
     print(f"  saved {VARIANTS / 'results_two_step.csv'}")
+    pd.DataFrame(all_mechanism_rows).to_csv(VARIANTS / "results_two_step_by_mechanism.csv", index=False)
+    print(f"  saved {VARIANTS / 'results_two_step_by_mechanism.csv'}")
+    pd.DataFrame(all_gene_rows).to_csv(VARIANTS / "results_two_step_by_gene.csv", index=False)
+    print(f"  saved {VARIANTS / 'results_two_step_by_gene.csv'}")
 
-    # save annotated variants
-    df.to_csv(VARIANTS / "variants_with_regions.csv", index=False)
-    print(f"  saved {VARIANTS / 'variants_with_regions.csv'}")
+    # save annotated variants with explicit evaluation-set filenames.
+    clean_df = annotated_eval_sets["clean"]
+    full_vus_df = annotated_eval_sets["full_vus"]
+    clean_df.to_csv(VARIANTS / "variants_with_regions.csv", index=False)
+    print(f"  saved {VARIANTS / 'variants_with_regions.csv'} (clean primary set)")
+    clean_df.to_csv(VARIANTS / "variants_with_regions_clean.csv", index=False)
+    print(f"  saved {VARIANTS / 'variants_with_regions_clean.csv'}")
+    full_vus_df.to_csv(VARIANTS / "variants_with_regions_full_vus.csv", index=False)
+    print(f"  saved {VARIANTS / 'variants_with_regions_full_vus.csv'}")
 
     print("\ndone.")

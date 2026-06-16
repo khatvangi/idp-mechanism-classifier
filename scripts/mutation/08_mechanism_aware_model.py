@@ -6,6 +6,16 @@ gain-of-toxic-function (GoF) genes where ESM2 conservation fails.
 
 key hypothesis: GoF genes (FUS, TARDBP, HNRNPA1, TIA1) need different
 features than LoF genes (LMNA, SOD1, CRYAB, VCP).
+
+⚠ KNOWN ISSUE: uses oracle mechanism labels at test time (line ~255). the
+routing decision requires knowing the true disease mechanism of the held-out
+gene, making the 0.738 AUROC unachievable prospectively. also mixes min-max
+scaled LLR (LoF subset) with raw XGBoost probabilities (GoF subset), creating
+incomparable calibrations across mechanism groups.
+
+⚠ SUPERSEDED: this exploratory script is not used in the paper. the two-step
+predictor (script 10) uses curated region annotations (not mechanism labels)
+and proper LOGO-CV without oracle information.
 """
 
 from pathlib import Path

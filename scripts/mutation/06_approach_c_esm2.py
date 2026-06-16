@@ -124,7 +124,10 @@ def compute_esm2_features(model, tokenizer, sequences, variants_df, device):
 
         log_probs = gene_logprobs.get(gene)
         if log_probs is None or pos_0 >= len(log_probs):
-            # position beyond truncated sequence (HTT)
+            # ⚠ WARNING: fabricated defaults for positions beyond ESM2's 1022-token
+            # limit. affects HTT (3142 aa) — 170 of 259 HTT variants get these zeros.
+            # these fake values contaminate any AUROC that includes HTT.
+            # all paper-facing analyses (scripts 09-16) exclude HTT entirely.
             n_truncated += 1
             esm2_rows.append({
                 "esm2_llr": 0.0,
